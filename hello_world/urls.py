@@ -9,7 +9,8 @@ urlpatterns = [
     path("", core_views.index),
     path("flet/", core_views.run_flet_app, name="run_flet"),
     path("admin/", admin.site.urls),
-    path("__reload__", include("django_browser_reload.urls")),
+    path("__reload", include("django_browser_reload.urls")),
+    path("ai_manager/", include("hello_world.ai_manager.urls")),  # Include AI Manager URLs
 ]
 
 if settings.DEBUG:

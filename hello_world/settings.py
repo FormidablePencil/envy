@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "django_browser_reload",
+    "hello_world.ai_manager",  # Added AI Manager app
 ]
 
 MIDDLEWARE = [
