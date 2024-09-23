@@ -1,0 +1,802 @@
+[33mcommit f16ce390f27cca251b60ad98cf5fdd4778d44a92[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Dennis Aleksandrov <50501999+FormidablePencil@users.noreply.github.com>
+Date:   Sun Sep 22 23:15:31 2024 +0000
+
+    Save progress before switching to local VSCode setup.
+
+[33mcommit 78a48d61ee031584cb4e0a3017232d8fa1838a4a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dennis Aleksandrov <50501999+FormidablePencil@users.noreply.github.com>
+Date:   Sun Sep 22 22:17:48 2024 +0000
+
+    Update task for CORS and dynamic task history implementation
+
+[33mcommit 9b34a4c77c354cd067ea5e91f8e8ebb7ee75e419[m
+Merge: 9d097dc 5209b64
+Author: Dennis Aleksandrov <50501999+FormidablePencil@users.noreply.github.com>
+Date:   Sun Sep 22 21:59:00 2024 +0000
+
+    Merge branch 'claude_dev_tasks'
+
+[33mcommit 5209b648e43c7688c0a4203b17d3410447c7db97[m[33m ([m[1;31morigin/claude_dev_tasks[m[33m, [m[1;32mclaude_dev_tasks[m[33m)[m
+Author: Dennis Aleksandrov <50501999+FormidablePencil@users.noreply.github.com>
+Date:   Sun Sep 22 21:57:29 2024 +0000
+
+    Update task to change machine type from 4 to 2 cores
+
+[33mcommit bceef599b994c6cc1c5bb3aee7f177f8eb9b1e1b[m
+Author: Dennis Aleksandrov <50501999+FormidablePencil@users.noreply.github.com>
+Date:   Sun Sep 22 21:40:30 2024 +0000
+
+    Add task for changing machine type from 4 to 2 cores
+
+[33mcommit 9d097dc9aea4a0bfd0735f8e4836089105df6833[m
+Author: Dennis Aleksandrov <50501999+FormidablePencil@users.noreply.github.com>
+Date:   Sun Sep 22 08:39:10 2024 +0000
+
+    Updated core files and added new models and requirements
+
+[33mcommit b36cbd52557f1f3821db3aad02f79be2ed358ad3[m
+Author: Dennis Aleksandrov <50501999+FormidablePencil@users.noreply.github.com>
+Date:   Sun Sep 22 08:23:42 2024 +0000
+
+    Add codespace history
+
+[33mcommit b7e3e6fcd6c44b25143ff644c1ae62b46dea0188[m
+Author: Dennis Aleksandrov <50501999+FormidablePencil@users.noreply.github.com>
+Date:   Sun Sep 22 00:43:19 2024 +0000
+
+    Integrate Flet with Django and update dependencies
+
+[33mcommit 3816b9147ddde21dc0e547c9496d1e29b6ee68df[m
+Merge: 1974697 faf72e1
+Author: Josh Abernathy <josh@github.com>
+Date:   Fri Aug 9 08:14:25 2024 -0400
+
+    Merge pull request #41 from github/joshaber/upgrade-django
+    
+    Upgrade Django
+
+[33mcommit faf72e1cc1eda8cefb65b8c2ad5a24166bd68125[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Fri Aug 9 12:12:31 2024 +0000
+
+    Upgrade Django
+
+[33mcommit 1974697fad1457728d566cc173df0c382603ab04[m
+Merge: e65d5a7 c7a149d
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Jul 22 09:19:42 2024 -0400
+
+    Merge pull request #40 from snipher-marube/main
+    
+    Bumping up the packages
+
+[33mcommit c7a149dd4c7072754c228dedde7d015ff741c6ba[m
+Author: snipher <sniphermarube@gmail.com>
+Date:   Sat Jul 20 08:43:29 2024 +0300
+
+    bump up the requirements
+
+[33mcommit 011fbe1aaae028565e6769faeb0debc87aa0dd38[m
+Author: snipher <sniphermarube@gmail.com>
+Date:   Sat Jul 20 08:37:53 2024 +0300
+
+    bump up the requirements
+
+[33mcommit e65d5a74d53d9f833f5632c1b1522d39f32c812a[m
+Merge: 01aec66 ba4aa0f
+Author: Josh Abernathy <josh@github.com>
+Date:   Thu May 2 10:22:46 2024 -0400
+
+    Merge pull request #39 from github/joshaber-patch-1
+    
+    Update settings.py
+
+[33mcommit ba4aa0f63f4fd6fa0d08f6b836ce0ee0ae3c9305[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Thu May 2 10:22:12 2024 -0400
+
+    Update settings.py
+
+[33mcommit 01aec66a34cc51fd6a6bab2ce74f9576ea414725[m
+Merge: 7cb6704 112a586
+Author: Josh Abernathy <josh@github.com>
+Date:   Thu May 2 10:02:50 2024 -0400
+
+    Merge pull request #38 from snipher-marube/main
+    
+    Django and dependacies upgrade
+
+[33mcommit 112a586043d89a6e015db0e1b4766961f2b20149[m
+Author: snipher marube <sniphermarube@gmail.com>
+Date:   Wed May 1 12:50:52 2024 +0300
+
+    README updated
+
+[33mcommit 72502ec4d11dfe86af948250ec0c657f05338ef2[m
+Author: snipher marube <sniphermarube@gmail.com>
+Date:   Wed May 1 12:49:53 2024 +0300
+
+    django upgrade from 4.2 to 5.0
+
+[33mcommit 7cb67043c780cfe7d9426ce2a056f74642a0c12e[m
+Merge: a6eccb6 42fbc95
+Author: Josh Abernathy <josh@github.com>
+Date:   Fri Apr 12 10:18:11 2024 -0400
+
+    Merge pull request #37 from thrivingproject/main
+    
+    fix grammatical error
+
+[33mcommit 42fbc952b3743e21cefb691a11e0ea8f77e7c930[m
+Author: thrivingproject <98602195+thrivingproject@users.noreply.github.com>
+Date:   Fri Apr 12 13:48:27 2024 +0000
+
+    fix grammatical error
+
+[33mcommit a6eccb6d1d7794888273c6c2faf139eace213955[m
+Merge: a1f4ea8 ae90861
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Apr 8 13:26:54 2024 -0400
+
+    Merge pull request #36 from spenserblack/main
+    
+    Mark `*.html` files as HTML+Django for GitHub Linguist
+
+[33mcommit ae90861291c68706adfbd60fa5ce74ffdfc42708[m
+Author: Spenser Black <spenserblack01@gmail.com>
+Date:   Mon Apr 8 10:20:30 2024 -0400
+
+    Mark `*.html` files as HTML+Django for GitHub Linguist
+
+[33mcommit a1f4ea8bdcdd3433e06b7e42b5dd5f38382402b8[m
+Merge: cd5c033 5fbdccf
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Mar 11 08:53:52 2024 -0400
+
+    Merge pull request #33 from ronaldgrn/main
+    
+    update django to 4.2 LTS
+
+[33mcommit 5fbdccf09ef023b40a740bacb9ba5b507b01c796[m
+Author: Petronald Green <petronaldgreen@gmail.com>
+Date:   Sat Mar 9 16:05:10 2024 +0000
+
+    upgrade to Django 4.2 LTS
+
+[33mcommit cd5c03351b131fdd1cf4b44ac430fa98a073b324[m
+Merge: 0f90517 908f97d
+Author: Josh Abernathy <josh@github.com>
+Date:   Wed Nov 15 12:30:52 2023 -0500
+
+    Merge pull request #31 from dishansa/main
+    
+    Replace hardcoded sensitive data with environment variables
+
+[33mcommit 908f97d21e2c02fe050d5fcc9a19e2dcd8b43d88[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Wed Nov 15 21:37:30 2023 +0530
+
+    remove the instructions for setup the .env file
+
+[33mcommit 783a0fc60114ec2a783c951fb828c539bb5a9e7d[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Wed Nov 15 21:11:40 2023 +0530
+
+    rename the .env/ (directory) to .env (file)
+
+[33mcommit 77a3450d8b65190f2658bcc83af2c17447425821[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Wed Nov 15 20:24:12 2023 +0530
+
+    rename the .env.example to .env in post create
+
+[33mcommit 426896a4fd359ba43e4eeaa56cf731a8de6d905c[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Tue Nov 14 07:44:44 2023 +0530
+
+    environment variables usage
+
+[33mcommit d351270aa2111efe39b72e9d31c74a56cd9a8f91[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Tue Nov 14 07:15:35 2023 +0530
+
+    use python-dotenv to access environment variables
+
+[33mcommit 3ed5d0b144b028cebe16d29cde9205104ba9005a[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Tue Nov 14 07:11:08 2023 +0530
+
+    add python-dotenv to requirements
+
+[33mcommit 4f935b3937780a586c3dd9d7fc77f5eb23af6b47[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Tue Nov 14 06:41:42 2023 +0530
+
+    update the environment variables
+
+[33mcommit 6c489283e761b91e4ef3a18029ebe1597a095b7c[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Tue Nov 14 06:21:32 2023 +0530
+
+    add the ALLOWED_HOSTS variable
+
+[33mcommit 57ff9d24e82f9ef903d7194c4ea15a12d3b71f1f[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Tue Nov 14 06:14:35 2023 +0530
+
+    Use environment variables for configuration
+    
+    Updated configuration settings, such as `SECRET_KEY`, `DEBUG`, and `ALLOWED_HOSTS`, by replacing hardcoded values with environment variables.
+
+[33mcommit 46119c051dfc4dc08b88ae7998f87220ba4cfe90[m
+Author: Dishan Sachin <134765302+dishansa@users.noreply.github.com>
+Date:   Tue Nov 14 06:05:36 2023 +0530
+
+    create .env.example file
+
+[33mcommit 0f905178158cf5b4274ba964dab28d9adaac5703[m
+Merge: 84f19d3 d60e495
+Author: Josh Abernathy <josh@github.com>
+Date:   Thu Nov 2 18:12:35 2023 -0400
+
+    Merge pull request #30 from github/dependabot/pip/django-4.1.13
+    
+    Bump django from 4.1.10 to 4.1.13
+
+[33mcommit d60e495aaaa21d61fd2aa32bea02af7a4dd961a4[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Nov 2 21:38:10 2023 +0000
+
+    Bump django from 4.1.10 to 4.1.13
+    
+    Bumps [django](https://github.com/django/django) from 4.1.10 to 4.1.13.
+    - [Commits](https://github.com/django/django/compare/4.1.10...4.1.13)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: django
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 84f19d32d8b0840074b2674c1ef86acd5fe2a356[m
+Merge: 5c09f63 2e6a64c
+Author: Josh Abernathy <josh@github.com>
+Date:   Fri Oct 27 16:48:30 2023 -0400
+
+    Merge pull request #29 from snipher-marube/main
+    
+    Added Static and Media Files Serving for Django CodeSpaces
+
+[33mcommit 2e6a64c9ef90ac00b6bc5a5ac91b4ac99e5f6d49[m
+Author: Snipher Marube <sniphermarube@gmail.com>
+Date:   Fri Oct 27 16:50:16 2023 +0300
+
+    serving static and media files
+
+[33mcommit 777f4162ae86da1e2b1e01f9950de3fcdfeace34[m
+Author: Snipher Marube <sniphermarube@gmail.com>
+Date:   Fri Oct 27 16:48:44 2023 +0300
+
+    serving static and media files
+
+[33mcommit eb0836770b9642fd304bf6422070d5b6d1283b1c[m
+Merge: 99064b5 5c09f63
+Author: snipher marube <sniphermarube@gmail.com>
+Date:   Fri Oct 27 00:12:20 2023 -0700
+
+    Merge branch 'github:main' into main
+
+[33mcommit 99064b503dc93d3988df60cb283e9bd039496ecb[m
+Merge: f094962 1af39be
+Author: snipher marube <sniphermarube@gmail.com>
+Date:   Wed Oct 18 18:37:20 2023 +0300
+
+    Merge pull request #1 from snipher-marube/imgbot
+    
+    [ImgBot] Optimize images
+
+[33mcommit 5c09f6379bf24a0f46053ffc7751e90a84cf68d7[m
+Merge: 3047afd df4bd2b
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Jul 10 12:08:59 2023 -0400
+
+    Merge pull request #25 from github/dependabot/pip/django-4.1.10
+    
+    Bump django from 4.1.9 to 4.1.10
+
+[33mcommit df4bd2b5f2e40939e9f2d25e829a44ecae7d4e4c[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Jul 6 00:09:58 2023 +0000
+
+    Bump django from 4.1.9 to 4.1.10
+    
+    Bumps [django](https://github.com/django/django) from 4.1.9 to 4.1.10.
+    - [Commits](https://github.com/django/django/compare/4.1.9...4.1.10)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: django
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 3047afd151673442089b9807816456badec702be[m
+Merge: 5b13fcb 15a142d
+Author: Josh Abernathy <josh@github.com>
+Date:   Tue May 30 08:32:46 2023 -0400
+
+    Merge pull request #23 from bgr8/patch-1
+    
+    Refactor index view for improved code structure and adherence to PEP 8
+
+[33mcommit 15a142d9b29cf6ad7947b519153497fca50b9d33[m
+Author: Buğra <11869756+bgr8@users.noreply.github.com>
+Date:   Fri May 26 16:58:07 2023 +0300
+
+    Refactor index view to improve code readability and maintainability
+
+[33mcommit 5b13fcb666aacece3fa40c2313b13bcd6be5d398[m
+Merge: f094962 629c47d
+Author: Josh Abernathy <josh@github.com>
+Date:   Thu May 11 17:32:54 2023 -0400
+
+    Merge pull request #22 from github/dependabot/pip/django-4.1.9
+    
+    Bump django from 4.1.7 to 4.1.9
+
+[33mcommit 629c47da582cff3df836a33c5c93fcfb4457e670[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue May 9 22:46:59 2023 +0000
+
+    Bump django from 4.1.7 to 4.1.9
+    
+    Bumps [django](https://github.com/django/django) from 4.1.7 to 4.1.9.
+    - [Commits](https://github.com/django/django/compare/4.1.7...4.1.9)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: django
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit f094962816cda687316a3497939a260a717e39da[m
+Merge: 8724194 d651674
+Author: Josh Abernathy <josh@github.com>
+Date:   Thu Mar 2 08:21:58 2023 -0500
+
+    Merge pull request #17 from snipher-marube/patch-1
+    
+    update for index.html
+
+[33mcommit 1af39be8dc498d4cf65e886646171e3d97fc4143[m
+Author: ImgBotApp <ImgBotHelp@gmail.com>
+Date:   Thu Mar 2 11:43:18 2023 +0000
+
+    [ImgBot] Optimize images
+    
+    /hello_world/static/Octocat.png -- 2,081.81kb -> 39.17kb (98.12%)
+    
+    Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+
+[33mcommit d651674def6518ddc24ed5cf21dbc6d02b99e92a[m
+Author: snipher marube <sniphermarube@gmail.com>
+Date:   Thu Mar 2 13:32:11 2023 +0300
+
+    update for index.html
+    
+    head tag closed
+
+[33mcommit 8724194144bec7cd1f2075ead197e9437291e218[m
+Merge: 52d54e8 f33c854
+Author: Josh Abernathy <josh@github.com>
+Date:   Thu Feb 16 10:36:28 2023 -0500
+
+    Merge pull request #16 from github/dependabot/pip/django-4.1.7
+    
+    Bump django from 4.1.6 to 4.1.7
+
+[33mcommit f33c8541c8eacf5b54b65cd79902a521f0bb6c76[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Feb 15 20:39:40 2023 +0000
+
+    Bump django from 4.1.6 to 4.1.7
+    
+    Bumps [django](https://github.com/django/django) from 4.1.6 to 4.1.7.
+    - [Release notes](https://github.com/django/django/releases)
+    - [Commits](https://github.com/django/django/compare/4.1.6...4.1.7)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: django
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 52d54e8e63677438c6fb8a0d62430b501019525e[m
+Merge: bfd5bd5 f0d549c
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Feb 6 08:06:17 2023 -0500
+
+    Merge pull request #15 from github/dependabot/pip/django-4.1.6
+    
+    Bump django from 4.1.5 to 4.1.6
+
+[33mcommit f0d549c8c930f7e10ffdfba8dd763de783af7d8a[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Feb 3 22:00:48 2023 +0000
+
+    Bump django from 4.1.5 to 4.1.6
+    
+    Bumps [django](https://github.com/django/django) from 4.1.5 to 4.1.6.
+    - [Release notes](https://github.com/django/django/releases)
+    - [Commits](https://github.com/django/django/compare/4.1.5...4.1.6)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: django
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit bfd5bd56f07f2ce52ced53b5b1e0c29443223ece[m
+Merge: 44a5045 fa463c1
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Jan 9 08:40:11 2023 -0500
+
+    Merge pull request #13 from bharadwaj6/cleanup-requirements
+    
+    cleaned up unnecessary requirements, updated django
+
+[33mcommit fa463c1c1f1a30ef58d14abeced5008d26a7f398[m
+Author: bharadwaj6 <1695154+bharadwaj6@users.noreply.github.com>
+Date:   Fri Jan 6 03:54:11 2023 +0530
+
+    cleaned up unnecessary requirements, updated django
+
+[33mcommit 44a50456925524c54b7b4f5ba3a54a6124c910ee[m
+Merge: 1cbbb43 6be4f70
+Author: Josh Abernathy <josh@github.com>
+Date:   Tue Dec 13 08:12:06 2022 -0500
+
+    Merge pull request #12 from livxy/main
+    
+    Code Refactor + Minor Edits
+
+[33mcommit 6be4f702b025af712432ff1bd368f9f0dd3b8ce1[m
+Author: aidan <67598470+livxy@users.noreply.github.com>
+Date:   Mon Dec 12 18:25:14 2022 +0000
+
+    Unused HttpRequest imported from django.http
+
+[33mcommit c0c38bc6df9a189150837b0771d541fa27817e34[m
+Author: aidan <67598470+livxy@users.noreply.github.com>
+Date:   Mon Dec 12 18:24:51 2022 +0000
+
+    Trailing Whitespace
+
+[33mcommit d6d9ca51c8d9193c11c1fa583d12fea94d936a9b[m
+Author: aidan <67598470+livxy@users.noreply.github.com>
+Date:   Mon Dec 12 18:24:29 2022 +0000
+
+    Woops! Trailing whitespace!
+
+[33mcommit 210ae158b51edc59257a8dcccf24c076955b769a[m
+Author: aidan <67598470+livxy@users.noreply.github.com>
+Date:   Mon Dec 12 18:23:35 2022 +0000
+
+    Fenced code blocks should have a language specified
+
+[33mcommit 86ebd80a2eaeeaeaf4e13a2b9fe8b751f4c2723e[m
+Author: aidan <67598470+livxy@users.noreply.github.com>
+Date:   Mon Dec 12 18:23:05 2022 +0000
+
+    Import outside toplevel (django.core.management.execute_from_command_line)
+
+[33mcommit 1cbbb4348ad77f6615b1eec138b9eef0f435e0ed[m
+Merge: 52723e0 0b3a6d4
+Author: Josh Abernathy <josh@github.com>
+Date:   Fri Dec 9 08:26:31 2022 -0500
+
+    Merge pull request #11 from github/dependabot/pip/certifi-2022.12.7
+    
+    Bump certifi from 2022.6.15 to 2022.12.7
+
+[33mcommit 0b3a6d48849bb3e216c32c77a983ce9e4ecdd34a[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Dec 9 07:41:19 2022 +0000
+
+    Bump certifi from 2022.6.15 to 2022.12.7
+    
+    Bumps [certifi](https://github.com/certifi/python-certifi) from 2022.6.15 to 2022.12.7.
+    - [Release notes](https://github.com/certifi/python-certifi/releases)
+    - [Commits](https://github.com/certifi/python-certifi/compare/2022.06.15...2022.12.07)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: certifi
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 52723e0840084ccc5d95c6f8a82c04f98ed83f41[m
+Merge: 55f17eb 56f8768
+Author: Josh Abernathy <josh@github.com>
+Date:   Fri Nov 18 08:41:37 2022 -0500
+
+    Merge pull request #8 from pamelafox/fix-csrf
+    
+    Add csrf origin for codespaces
+
+[33mcommit 55f17eb66089e1b74610cbebc391681afa23bdaf[m
+Merge: a4eb3c8 8533582
+Author: Josh Abernathy <josh@github.com>
+Date:   Thu Nov 17 10:55:11 2022 -0500
+
+    Merge pull request #9 from Chuxel/patch-1
+    
+    Fix invalid devcontainer.json
+
+[33mcommit 853358270c337338989f36ed61eeecc909ce88e9[m
+Author: Chuck Lantz <clantz@microsoft.com>
+Date:   Thu Nov 17 09:45:42 2022 -0600
+
+    Fix invalid devcontainer.json
+
+[33mcommit 56f87681f735fd0a934e1d01860382e062cc8cb3[m
+Author: Pamela Fox <pamela.fox@gmail.com>
+Date:   Thu Nov 17 15:23:28 2022 +0000
+
+    Add csrf origin for codespaces
+
+[33mcommit a4eb3c832990a890d28cbdc95b7d98ed23228592[m
+Merge: 461b3e2 1445d55
+Author: Josh Abernathy <josh@github.com>
+Date:   Tue Nov 15 08:56:44 2022 -0500
+
+    Merge pull request #6 from github/dependabot/pip/pillow-9.3.0
+    
+    Bump pillow from 9.2.0 to 9.3.0
+
+[33mcommit 1445d55526ccd63c899a084bdb9352c7f00ad284[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Nov 15 13:48:47 2022 +0000
+
+    Bump pillow from 9.2.0 to 9.3.0
+    
+    Bumps [pillow](https://github.com/python-pillow/Pillow) from 9.2.0 to 9.3.0.
+    - [Release notes](https://github.com/python-pillow/Pillow/releases)
+    - [Changelog](https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst)
+    - [Commits](https://github.com/python-pillow/Pillow/compare/9.2.0...9.3.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: pillow
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 461b3e231163ecc4603d12f5aa407a85399493d2[m
+Author: Brian McManus <bdmac@github.com>
+Date:   Tue Nov 8 13:53:45 2022 -0700
+
+    Add forwardPorts
+
+[33mcommit 020165c6fa191e52869ba2bed85dfdd72b0b8b3d[m
+Merge: 301e6fa 21211e3
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Nov 7 16:24:48 2022 -0500
+
+    Merge pull request #5 from github/dependabot/pip/django-4.1.2
+    
+    Bump django from 4.1.1 to 4.1.2
+
+[33mcommit 301e6fa1066f2ee6630df5755174f1b401b14539[m
+Merge: a718a02 8850d9c
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Nov 7 16:24:33 2022 -0500
+
+    Merge pull request #3 from github/dependabot/pip/joblib-1.2.0
+    
+    Bump joblib from 1.1.0 to 1.2.0
+
+[33mcommit a718a0217410279d93e536386cf9ce65fac209b4[m
+Merge: 19f2541 bde31d6
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Nov 7 16:24:19 2022 -0500
+
+    Merge pull request #2 from github/dependabot/pip/protobuf-3.19.5
+    
+    Bump protobuf from 3.19.4 to 3.19.5
+
+[33mcommit 19f2541d13fca8838e71c2da9d78b50ea95646f2[m
+Merge: d17050c 6a92724
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Nov 7 16:23:44 2022 -0500
+
+    Merge pull request #1 from github/dependabot/pip/oauthlib-3.2.1
+    
+    Bump oauthlib from 3.2.0 to 3.2.1
+
+[33mcommit 21211e3bab3e2b3ddf672920de8090eb9f704cad[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Nov 7 15:25:30 2022 +0000
+
+    Bump django from 4.1.1 to 4.1.2
+    
+    Bumps [django](https://github.com/django/django) from 4.1.1 to 4.1.2.
+    - [Release notes](https://github.com/django/django/releases)
+    - [Commits](https://github.com/django/django/compare/4.1.1...4.1.2)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: django
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit d17050c7bb1b3557e265e89080636c0ccda48f55[m
+Merge: d4ac267 348dd1e
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Nov 7 10:24:59 2022 -0500
+
+    Merge pull request #4 from github/joshaber/live-reload
+    
+    Add live reload & simplify
+
+[33mcommit 348dd1e300d9738ca4862f79c69a463230a2316d[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Nov 7 15:24:25 2022 +0000
+
+    Add django-browser-reload to requirements
+
+[33mcommit 0340b81993378c5c6699055680d845a6a7d99650[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Nov 7 15:20:59 2022 +0000
+
+    Whitespace
+
+[33mcommit 40fba7f7b132cfd253331522fc15e9d9be90b97a[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Mon Nov 7 15:19:34 2022 +0000
+
+    Add live reload & simplify
+
+[33mcommit d4ac26727e88f387f9ad53009e15562bef601961[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Fri Nov 4 18:57:58 2022 +0000
+
+    Standardize devcontainer.json
+
+[33mcommit 2b85295f9170d654239b2e52f3e227f0c6b6cd51[m
+Author: Brian McManus <bdmac@github.com>
+Date:   Thu Nov 3 19:46:49 2022 +0000
+
+    Add template icon
+
+[33mcommit 5a374db2586c3a54ecab1eb0a27a2c7fc11a5420[m
+Author: Brian McManus <bdmac@github.com>
+Date:   Mon Oct 31 07:34:01 2022 -0600
+
+    Update SCM tip
+
+[33mcommit 69874d0766e17878690cfb8908454e2044374704[m
+Author: Brian McManus <bdmac@github.com>
+Date:   Wed Oct 26 12:51:50 2022 -0600
+
+    Remove trailing comma
+
+[33mcommit 6506c6172912f37505eed88e81ca2092b36bebca[m
+Author: Brian McManus <bdmac@github.com>
+Date:   Wed Oct 26 12:50:51 2022 -0600
+
+    Move extensions to the proper devcontainer location
+
+[33mcommit e5acb9ed347d08d9cccd0fd881ad0e41bd89c512[m
+Author: Brian McManus <bdmac@github.com>
+Date:   Wed Oct 26 17:08:42 2022 +0000
+
+    Allow app to run in embedded browser window
+
+[33mcommit b03305bd0f68848dbaa5c2d7ea6363718f8e7501[m
+Author: Brian McManus <bdmac@github.com>
+Date:   Wed Oct 26 15:28:12 2022 +0000
+
+    Add python extension
+
+[33mcommit f66a8e0efee3740baff7ffca9f3fa357c5eb3ccd[m
+Author: Brian McManus <bdmac@github.com>
+Date:   Wed Oct 26 15:26:42 2022 +0000
+
+    Update template
+
+[33mcommit 8850d9c7b2d115f85b29ad975cfb545721def37c[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Sep 30 20:04:58 2022 +0000
+
+    Bump joblib from 1.1.0 to 1.2.0
+    
+    Bumps [joblib](https://github.com/joblib/joblib) from 1.1.0 to 1.2.0.
+    - [Release notes](https://github.com/joblib/joblib/releases)
+    - [Changelog](https://github.com/joblib/joblib/blob/master/CHANGES.rst)
+    - [Commits](https://github.com/joblib/joblib/compare/1.1.0...1.2.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: joblib
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit bde31d6f10d0309767cd677d5cb9daeca5e4757b[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Sep 23 22:25:58 2022 +0000
+
+    Bump protobuf from 3.19.4 to 3.19.5
+    
+    Bumps [protobuf](https://github.com/protocolbuffers/protobuf) from 3.19.4 to 3.19.5.
+    - [Release notes](https://github.com/protocolbuffers/protobuf/releases)
+    - [Changelog](https://github.com/protocolbuffers/protobuf/blob/main/generate_changelog.py)
+    - [Commits](https://github.com/protocolbuffers/protobuf/compare/v3.19.4...v3.19.5)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: protobuf
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 6a927240a38c49240111e71dac7915eaae702e4e[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sat Sep 17 02:07:27 2022 +0000
+
+    Bump oauthlib from 3.2.0 to 3.2.1
+    
+    Bumps [oauthlib](https://github.com/oauthlib/oauthlib) from 3.2.0 to 3.2.1.
+    - [Release notes](https://github.com/oauthlib/oauthlib/releases)
+    - [Changelog](https://github.com/oauthlib/oauthlib/blob/master/CHANGELOG.rst)
+    - [Commits](https://github.com/oauthlib/oauthlib/compare/v3.2.0...v3.2.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: oauthlib
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit f9e2b9a08a16f38b309ed6d366a443a46f50fccf[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Wed Sep 7 15:49:16 2022 -0400
+
+    Create devcontainer.json
+
+[33mcommit 36bd441f630a7d4431cd093c786c9094a8e2519b[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Tue Sep 6 22:53:11 2022 -0400
+
+    Update README.md
+
+[33mcommit bfbb7bc37a219304882569b95349f0ff457f2e4a[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Tue Sep 6 20:02:08 2022 +0000
+
+    Add readme
+
+[33mcommit 6712a4e43e524cdbf8bd0e687e72bab2c5840549[m
+Author: Josh Abernathy <josh@github.com>
+Date:   Tue Sep 6 20:01:05 2022 +0000
+
+    Initial commit
