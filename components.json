@@ -1,0 +1,11 @@
+{
+  "ai_components": {
+    "code_framework": "./ai_components/code-framework",
+    "prompt_programming": "./ai_components/prompt_programming"
+  },
+  "feature_components": {
+    "component_library1": "./feature_components/components/component_library1.py",
+    "component_library2": "./feature_components/components/component_library2.py",
+    "component_library3": "./feature_components/components/component_library3.py"
+  }
+}
