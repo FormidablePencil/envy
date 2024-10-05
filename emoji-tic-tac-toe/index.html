@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Tic-Tac-Toe</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .game {
+            text-align: center;
+        }
+        .board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 5px;
+            margin-top: 20px;
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border: 2px solid #333;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const EmojiTicTacToe = () => {
+            const [board, setBoard] = React.useState(Array(9).fill(null));
+            const [currentPlayer, setCurrentPlayer] = React.useState('🟢');
+            const [winner, setWinner] = React.useState(null);
+
+            const checkWinner = (squares) => {
+                const lines = [
+                    [0, 1, 2],
+                    [3, 4, 5],
+                    [6, 7, 8],
+                    [0, 3, 6],
+                    [1, 4, 7],
+                    [2, 5, 8],
+                    [0, 4, 8],
+                    [2, 4, 6],
+                ];
+                for (let i = 0; i < lines.length; i++) {
+                    const [a, b, c] = lines[i];
+                    if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+                        return squares[a];
+                    }
+                }
+                return null;
+            };
+
+            const handleClick = (index) => {
+                if (board[index] || winner) return;
+                const newBoard = [...board];
+                newBoard[index] = currentPlayer;
+                setBoard(newBoard);
+                const newWinner = checkWinner(newBoard);
+                if (newWinner) {
+                    setWinner(newWinner);
+                } else if (!newBoard.includes(null)) {
+                    setWinner('Tie');
+                } else {
+                    setCurrentPlayer(currentPlayer === '🟢' ? '🔴' : '🟢');
+                }
+            };
+
+            const resetGame = () => {
+                setBoard(Array(9).fill(null));
+                setCurrentPlayer('🟢');
+                setWinner(null);
+            };
+
+            const renderSquare = (index) => (
+                <div className="square" onClick={() => handleClick(index)}>
+                    {board[index]}
+                </div>
+            );
+
+            return (
+                <div className="game">
+                    <h1>Emoji Tic-Tac-Toe</h1>
+                    <div className="board">
+                        {board.map((_, index) => renderSquare(index))}
+                    </div>
+                    {winner ? (
+                        <div>
+                            <p>{winner === 'Tie' ? "It's a Tie!" : `Winner: ${winner}`}</p>
+                            <button onClick={resetGame}>Play Again</button>
+                        </div>
+                    ) : (
+                        <p>Current Player: {currentPlayer}</p>
+                    )}
+                </div>
+            );
+        };
+
+        ReactDOM.render(<EmojiTicTacToe />, document.getElementById('root'));
+    </script>
+</body>
+</html>

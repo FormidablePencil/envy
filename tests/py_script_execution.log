@@ -1,0 +1,63 @@
+2024-10-02 10:15:56,891 - INFO - PYTHONPATH set to default: envy
+2024-10-02 10:15:58,858 - INFO - Successfully executed command: py /root/envy/tests/test_py_command.py
+2024-10-03 15:43:11,561 - ERROR - Error running command: Command '['pytest', '--color=yes', '/root/envy/tests/integration', '-k', 'test_py.py']' returned non-zero exit status 1.
+2024-10-03 15:43:11,563 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+rootdir: /root/envy
+configfile: pytest.ini
+plugins: anyio-4.2.0
+collected 5 items
+
+integration/test_py.py [32m.[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31m                                             [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_____________________________ test_run_unit_tests ______________________________[0m
+
+    [94mdef[39;49;00m [92mtest_run_unit_tests[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Test running unit tests."""[39;49;00m[90m[39;49;00m
+        result = subprocess.run([[33m"[39;49;00m[33mpy[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m-ut[39;49;00m[33m"[39;49;00m], check=[94mTrue[39;49;00m, capture_output=[94mTrue[39;49;00m, text=[94mTrue[39;49;00m)[90m[39;49;00m
+>       [94massert[39;49;00m [33m"[39;49;00m[33mtest_py.py[39;49;00m[33m"[39;49;00m [95min[39;49;00m result.stdout[90m[39;49;00m
+[1m[31mE       AssertionError: assert 'test_py.py' in ''[0m
+[1m[31mE        +  where '' = CompletedProcess(args=['py', '-ut'], returncode=0, stdout='', stderr='').stdout[0m
+
+[1m[31mintegration/test_py.py[0m:12: AssertionError
+[31m[1m__________________________ test_run_integration_tests __________________________[0m
+
+    [94mdef[39;49;00m [92mtest_run_integration_tests[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Test running integration tests."""[39;49;00m[90m[39;49;00m
+        result = subprocess.run([[33m"[39;49;00m[33mpy[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m/root/envy/tests/generic/generic_script.py[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m-it[39;49;00m[33m"[39;49;00m], check=[94mTrue[39;49;00m, capture_output=[94mTrue[39;49;00m, text=[94mTrue[39;49;00m)[90m[39;49;00m
+>       [94massert[39;49;00m [33m"[39;49;00m[33mtest_py.py[39;49;00m[33m"[39;49;00m [95min[39;49;00m result.stdout[90m[39;49;00m
+[1m[31mE       AssertionError: assert 'test_py.py' in 'Successfully executed command\n'[0m
+[1m[31mE        +  where 'Successfully executed command\n' = CompletedProcess(args=['py', '/root/envy/tests/generic/generic_script.py', '-it'], returncode=0, stdout='Successfully executed command\n', stderr='').stdout[0m
+
+[1m[31mintegration/test_py.py[0m:17: AssertionError
+[31m[1m______________________________ test_run_all_tests ______________________________[0m
+
+    [94mdef[39;49;00m [92mtest_run_all_tests[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Test running all tests."""[39;49;00m[90m[39;49;00m
+        result = subprocess.run([[33m"[39;49;00m[33mpy[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m/root/envy/tests/generic/generic_script.py[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m-t[39;49;00m[33m"[39;49;00m], check=[94mTrue[39;49;00m, capture_output=[94mTrue[39;49;00m, text=[94mTrue[39;49;00m)[90m[39;49;00m
+>       [94massert[39;49;00m [33m"[39;49;00m[33mtest_py.py[39;49;00m[33m"[39;49;00m [95min[39;49;00m result.stdout[90m[39;49;00m
+[1m[31mE       AssertionError: assert 'test_py.py' in 'Successfully executed command\n'[0m
+[1m[31mE        +  where 'Successfully executed command\n' = CompletedProcess(args=['py', '/root/envy/tests/generic/generic_script.py', '-t'], returncode=0, stdout='Successfully executed command\n', stderr='').stdout[0m
+
+[1m[31mintegration/test_py.py[0m:22: AssertionError
+[31m[1m___________________ test_run_script_with_no_executable_code ____________________[0m
+
+    [94mdef[39;49;00m [92mtest_run_script_with_no_executable_code[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Test running a script with no executable code."""[39;49;00m[90m[39;49;00m
+        result = subprocess.run([[33m"[39;49;00m[33mpy[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m/root/envy/tests/generic/generic_script.py[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mmisc/system_instructions.md[39;49;00m[33m"[39;49;00m], check=[94mFalse[39;49;00m, capture_output=[94mTrue[39;49;00m, text=[94mTrue[39;49;00m)[90m[39;49;00m
+>       [94massert[39;49;00m [33m"[39;49;00m[33mError: The specified target [39;49;00m[33m'[39;49;00m[33mmisc/system_instructions.md[39;49;00m[33m'[39;49;00m[33m does not contain any executable code.[39;49;00m[33m"[39;49;00m [95min[39;49;00m result.stderr[90m[39;49;00m
+[1m[31mE       assert "Error: The specified target 'misc/system_instructions.md' does not contain any executable code." in ''[0m
+[1m[31mE        +  where '' = CompletedProcess(args=['py', '/root/envy/tests/generic/generic_script.py', 'misc/system_instructions.md'], returncode=0, stdout='Successfully executed command\n', stderr='').stderr[0m
+
+[1m[31mintegration/test_py.py[0m:27: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m integration/test_py.py::[1mtest_run_unit_tests[0m - AssertionError: assert 'test_py.py' in ''
+[31mFAILED[0m integration/test_py.py::[1mtest_run_integration_tests[0m - AssertionError: assert 'test_py.py' in 'Successfully executed command\n'
+[31mFAILED[0m integration/test_py.py::[1mtest_run_all_tests[0m - AssertionError: assert 'test_py.py' in 'Successfully executed command\n'
+[31mFAILED[0m integration/test_py.py::[1mtest_run_script_with_no_executable_code[0m - assert "Error: The specified target 'misc/system_instructions.md' does not ...
+[31m========================= [31m[1m4 failed[0m, [32m1 passed[0m[31m in 1.52s[0m[31m ==========================[0m
+
+2024-10-03 15:43:11,563 - ERROR - Command error: 
+2024-10-03 15:43:31,856 - INFO - Successfully executed command: pytest --color=yes /root/envy/tests/unit -k test_py.py
+2024-10-03 15:43:31,857 - INFO - PYTHONPATH set to default: envy

@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+import os
+import sys
+import subprocess
+import argparse
+import logging
+from pathlib import Path
+from tests.test_mapping import TEST_MAPPING
+
+# Configure logging
+logging.basicConfig(filename='py_script_execution.log', level=logging.INFO, 
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+def set_pythonpath(path):
+    """Sets the PYTHONPATH environment variable."""
+    if path:
+        os.environ["PYTHONPATH"] = path
+        logging.info(f"PYTHONPATH set to: {path}")
+    else:
+        os.environ["PYTHONPATH"] = "envy"
+        logging.info(f"PYTHONPATH set to default: envy")
+
+def run_tests(target_path, test_type):
+    """Runs the specified test type for the given target."""
+    if test_type == 'integration':
+        test_dir = os.path.join(os.path.dirname(target_path), 'integration')
+        logging.info(f"Running integration tests in directory: {test_dir}")
+        test_pattern = os.path.basename(target_path)
+    elif test_type == 'unit':
+        test_file = TEST_MAPPING.get(os.path.basename(target_path), {}).get('unit')
+        if test_file:
+            test_dir = os.path.join(os.path.dirname(target_path), 'unit')
+            logging.info(f"Running unit tests for file: {test_file}")
+            test_pattern = os.path.basename(test_file)
+        else:
+            test_dir = os.path.join(os.path.dirname(target_path), 'unit')
+            logging.info(f"Running unit tests in directory: {test_dir}")
+            test_pattern = '*.py'
+    else:
+        raise ValueError(f"Invalid test type: {test_type}")
+
+    command = ["pytest", "--color=yes", test_dir, "-k", test_pattern]
+    try:
+        result = subprocess.run(command, check=True, capture_output=True, text=True)
+        logging.info(f"Successfully executed command: {' '.join(command)}")
+        print(result.stdout)
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Error running command: {e}")
+        logging.error(f"Command output: {e.output}")
+        logging.error(f"Command error: {e.stderr}")
+        print(f"Error running command: {e}")
+        print(f"Command output: {e.output}")
+        print(f"Command error: {e.stderr}")
+        sys.exit(1)
+
+def run_all_tests():
+    """Runs all tests (unit and integration) in the 'tests' directory."""
+    unit_test_dir = os.path.join(os.getcwd(), 'tests', 'unit')
+    integration_test_dir = os.path.join(os.getcwd(), 'tests', 'integration')
+
+    # Run unit tests
+    unit_test_command = ["pytest", "--color=yes", unit_test_dir]
+    try:
+        result = subprocess.run(unit_test_command, check=True, capture_output=True, text=True)
+        logging.info(f"Successfully executed command: {' '.join(unit_test_command)}")
+        print(result.stdout)
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Error running unit tests: {e}")
+        logging.error(f"Command output: {e.output}")
+        logging.error(f"Command error: {e.stderr}")
+        print(f"Error running unit tests: {e}")
+        print(f"Command output: {e.output}")
+        print(f"Command error: {e.stderr}")
+        sys.exit(1)
+
+    # Run integration tests
+    integration_test_command = ["pytest", "--color=yes", integration_test_dir]
+    try:
+        result = subprocess.run(integration_test_command, check=True, capture_output=True, text=True)
+        logging.info(f"Successfully executed command: {' '.join(integration_test_command)}")
+        print("Hello from integration test!")
+        print(result.stdout)
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Error running integration tests: {e}")
+        logging.error(f"Command output: {e.output}")
+        logging.error(f"Command error: {e.stderr}")
+        print(f"Error running integration tests: {e}")
+        print(f"Command output: {e.output}")
+        print(f"Command error: {e.stderr}")
+        sys.exit(1)
+
+def main():
+    parser = argparse.ArgumentParser(description='Run a Python script or test suite with PYTHONPATH set.')
+    parser.add_argument('target', help='The Python script or directory of tests to run.')
+    parser.add_argument('-p', '--pythonpath', default=None, help='The PYTHONPATH to set.')
+    parser.add_argument('-t', '--test', action='store_true', help='Run all tests (unit and integration).')
+    parser.add_argument('-ut', '--unit-test', action='store_true', help='Run unit tests only.')
+    parser.add_argument('-it', '--integration-test', action='store_true', help='Run integration tests only.')
+    args = parser.parse_args()
+
+    target = args.target
+    target_path = os.path.abspath(os.path.join(os.getcwd(), target))
+
+    if args.test or args.unit_test or args.integration_test:
+        # Run tests
+        if args.unit_test:
+            run_tests(target_path, 'unit')
+        elif args.integration_test:
+            run_tests(target_path, 'integration')
+        else:
+            run_all_tests()
+    else:
+        # Run as a regular Python script
+        if os.path.isfile(target_path):
+            os.chdir(os.path.dirname(target_path))
+            try:
+                result = subprocess.run(["py", os.path.basename(target_path)], check=True, capture_output=True, text=True)
+                logging.info(f"Successfully executed command: py {os.path.basename(target_path)}")
+                print(result.stdout)
+            except subprocess.CalledProcessError as e:
+                logging.error(f"Error running script: {e}")
+                logging.error(f"Command output: {e.output}")
+                logging.error(f"Command error: {e.stderr}")
+                print(f"Error: The specified target '{target}' does not contain any executable code.")
+                sys.exit(1)
+        elif os.path.isdir(target_path):
+            os.chdir(target_path)
+            command = ["py", "-m", "pytest", "--color=yes", "."]
+            try:
+                result = subprocess.run(command, check=True, capture_output=True, text=True)
+                logging.info(f"Successfully executed command: {' '.join(command)}")
+                print(result.stdout)
+            except subprocess.CalledProcessError as e:
+                logging.error(f"Error running command: {e}")
+                logging.error(f"Command output: {e.output}")
+                logging.error(f"Command error: {e.stderr}")
+                print(f"Error: The specified target '{target}' does not contain any executable code.")
+                sys.exit(1)
+        else:
+            logging.error(f"Error: The specified target '{target}' does not exist at path '{target_path}'.")
+            print(f"Error: The specified target '{target}' does not exist at path '{target_path}'.")
+            sys.exit(1)  # Exit with an error code
+
+    pythonpath = args.pythonpath
+    set_pythonpath(pythonpath)
+
+if __name__ == "__main__":
+    main()
