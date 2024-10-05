@@ -1,25 +1,75 @@
-# GitHub Codespaces ♥️ Django
+# AI-Powered Codebase Infrastructure
 
-Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
+This project provides an AI-powered codebase infrastructure with a database for storing and managing tasks, implementation details, completion records, and coordination capabilities.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Database CLI
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+The database functionality is accessible through a command-line interface (CLI) implemented in the `database_cli.py` file.
 
-## installing dependancies
+### Usage
 
-```python
-pip install -r requirements.txt
+To use the database CLI, run the following command:
+
+```
+py database/database_cli.py [COMMAND] [OPTIONS]
 ```
 
-## To collect static files:
+Available commands:
 
-```python
-python manage.py collectstatic
+- `tasks`
+  - `--create TITLE DESCRIPTION`: Create a new task
+  - `--list`: List all tasks
+- `details`
+  - `--create COMPONENT DESCRIPTION`: Create a new implementation detail
+  - `--list`: List all implementation details
+- `records`
+  - `--create TASK_ID COMPLETED_AT`: Create a new completion record
+  - `--list`: List all completion records
+- `capabilities`
+  - `--create NAME DESCRIPTION`: Create a new coordination capability
+  - `--list`: List all coordination capabilities
+
+Examples:
+
+```
+# Create a new task
+py database/database_cli.py tasks --create "Implement login feature" "Add login functionality to the app"
+
+# List all tasks
+py database/database_cli.py tasks --list
+
+# Create a new implementation detail
+py database/database_cli.py details --create "UI" "Implement button styling"
+
+# List all implementation details
+py database/database_cli.py details --list
+
+# Create a new completion record
+py database/database_cli.py records --create 1 "2023-04-15"
+
+# List all completion records
+py database/database_cli.py records --list
+
+# Create a new coordination capability
+py database/database_cli.py capabilities --create "Scheduling" "Coordinate task scheduling"
+
+# List all coordination capabilities
+py database/database_cli.py capabilities --list
 ```
 
-## To run this application:
+## Testing
 
-```python
-python manage.py runserver
+The project includes both unit and integration tests for the `Database` class. You can run the tests using the following commands:
+
 ```
+# Run all tests
+py -t
+
+# Run only unit tests
+py -ut
+
+# Run only integration tests
+py -it
+```
+
+Feel free to explore and extend the database functionality as needed for your AI-powered codebase infrastructure project.

@@ -1,4 +1,7 @@
 Django==5.0.4
-speechrecognition
 python-decouple
 django-cors-headers
+pytest
+numpy
+flet
+pocketsphinx
