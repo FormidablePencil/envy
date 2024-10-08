@@ -3,3 +3,6 @@ speechrecognition
 python-decouple
 django-cors-headers
 vosk
+flet
+numpy
+pocketsphinx

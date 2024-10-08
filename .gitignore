@@ -5,3 +5,4 @@ staticfiles/
 venv/
 claude-dev/
 code-server-4.93.1-linux-arm64/
+myenv/
