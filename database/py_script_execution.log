@@ -1,0 +1,91 @@
+2024-10-08 17:53:04,496 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:53:16,037 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:53:16,038 - INFO - Running integration tests in directory: integration
+2024-10-08 17:53:18,362 - ERROR - Error running command: Command '['pytest', '--color=yes', 'integration', '-k', 'database.py']' returned non-zero exit status 4.
+2024-10-08 17:53:18,362 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 0 items
+
+[33m============================ [33mno tests ran[0m[33m in 0.01s[0m[33m =============================[0m
+
+2024-10-08 17:53:18,362 - ERROR - Command error: ERROR: file or directory not found: integration
+
+
+2024-10-08 17:53:28,292 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:55:05,777 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:55:05,777 - INFO - Running unit tests in directory: unit
+2024-10-08 17:55:09,746 - ERROR - Error running command: Command '['pytest', '--color=yes', 'unit', '-k', '*.py']' returned non-zero exit status 4.
+2024-10-08 17:55:09,746 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 0 items
+
+[33m============================ [33mno tests ran[0m[33m in 0.01s[0m[33m =============================[0m
+
+2024-10-08 17:55:09,746 - ERROR - Command error: ERROR: file or directory not found: unit
+
+
+2024-10-08 17:55:15,096 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:55:15,097 - INFO - Running unit tests in directory: unit
+2024-10-08 17:55:17,053 - ERROR - Error running command: Command '['pytest', '--color=yes', 'unit', '-k', '*.py']' returned non-zero exit status 4.
+2024-10-08 17:55:17,053 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 0 items
+
+[33m============================ [33mno tests ran[0m[33m in 0.00s[0m[33m =============================[0m
+
+2024-10-08 17:55:17,053 - ERROR - Command error: ERROR: file or directory not found: unit
+
+
+2024-10-08 17:55:58,699 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:55:58,700 - INFO - Running unit tests in directory: unit
+2024-10-08 17:56:02,469 - ERROR - Error running command: Command '['pytest', '--color=yes', 'unit', '-k', '*.py']' returned non-zero exit status 4.
+2024-10-08 17:56:02,469 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 0 items
+
+[33m============================ [33mno tests ran[0m[33m in 0.01s[0m[33m =============================[0m
+
+2024-10-08 17:56:02,469 - ERROR - Command error: ERROR: file or directory not found: unit
+
+
+2024-10-08 17:56:09,927 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:56:09,928 - INFO - Running integration tests in directory: integration
+2024-10-08 17:56:11,973 - ERROR - Error running command: Command '['pytest', '--color=yes', 'integration', '-k', 'database_cli.py']' returned non-zero exit status 4.
+2024-10-08 17:56:11,974 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 0 items
+
+[33m============================ [33mno tests ran[0m[33m in 0.01s[0m[33m =============================[0m
+
+2024-10-08 17:56:11,974 - ERROR - Command error: ERROR: file or directory not found: integration
+
+
+2024-10-08 17:57:15,137 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:57:17,398 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/database/tests/unit']' returned non-zero exit status 4.
+2024-10-08 17:57:17,398 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 0 items
+
+[33m============================ [33mno tests ran[0m[33m in 0.02s[0m[33m =============================[0m
+
+2024-10-08 17:57:17,399 - ERROR - Command error: ERROR: file or directory not found: /home/formidablepencil/envy/database/tests/unit
+
+

@@ -6,3 +6,6 @@ vosk
 flet
 numpy
 pocketsphinx
+sounddevice
+anthropic
+pytest

@@ -6822,3 +6822,2109 @@ self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implement
     from ai_components.neural_network import NeuralNetwork
 ModuleNotFoundError: No module named 'ai_components'
 
+2024-10-08 14:05:51,873 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:05:51,874 - ERROR - Command output: 
+2024-10-08 14:05:51,874 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:06:20,428 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:06:20,429 - ERROR - Command output: 
+2024-10-08 14:06:20,429 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:10:28,131 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:10:28,132 - ERROR - Command output: 
+2024-10-08 14:10:28,132 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:10:34,751 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:10:34,753 - ERROR - Command output: 
+2024-10-08 14:10:34,753 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:36:21,223 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:36:21,226 - ERROR - Command output: 
+2024-10-08 14:36:21,227 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/main.py", line 3, in <module>
+    from version_control import create_new_branch, commit_all_changes, push_changes, auto_version_control, add_git_tracked_directories
+ImportError: cannot import name 'create_new_branch' from 'version_control' (/home/formidablepencil/envy/version_control/__init__.py)
+
+2024-10-08 14:38:18,103 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:38:18,104 - ERROR - Command output: 
+2024-10-08 14:38:18,104 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/main.py", line 3, in <module>
+    from version_control import create_new_branch, commit_all_changes, push_changes, auto_version_control, add_git_tracked_directories
+ImportError: cannot import name 'create_new_branch' from 'version_control' (/home/formidablepencil/envy/version_control/__init__.py)
+
+2024-10-08 14:39:50,504 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:39:50,504 - ERROR - Command output: 
+2024-10-08 14:39:50,505 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:39:57,155 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:39:57,155 - ERROR - Command output: 
+2024-10-08 14:39:57,156 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:40:27,086 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:40:27,087 - ERROR - Command output: 
+2024-10-08 14:40:27,088 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:41:03,856 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:41:03,856 - ERROR - Command output: 
+2024-10-08 14:41:03,857 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:41:44,255 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:41:44,255 - ERROR - Command output: 
+2024-10-08 14:41:44,255 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:42:12,855 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:42:12,856 - ERROR - Command output: 
+2024-10-08 14:42:12,856 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:42:42,203 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:42:42,204 - ERROR - Command output: 
+2024-10-08 14:42:42,204 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:43:33,564 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:43:33,565 - ERROR - Command output: 
+2024-10-08 14:43:33,565 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:47:21,231 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:47:21,231 - ERROR - Command output: 
+2024-10-08 14:47:21,231 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:51:21,150 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:51:21,151 - ERROR - Command output: 
+2024-10-08 14:51:21,151 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:52:33,183 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'central_ai_manager/main.py']' returned non-zero exit status 2.
+2024-10-08 14:52:33,184 - ERROR - Command output: 
+2024-10-08 14:52:33,184 - ERROR - Command error: /home/formidablepencil/envy/venv/bin/python3: can't open file '/home/formidablepencil/envy/central_ai_manager/central_ai_manager/main.py': [Errno 2] No such file or directory
+
+2024-10-08 14:52:56,392 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'central_ai_manager/main.py']' returned non-zero exit status 2.
+2024-10-08 14:52:56,392 - ERROR - Command output: 
+2024-10-08 14:52:56,392 - ERROR - Command error: /home/formidablepencil/envy/venv/bin/python3: can't open file '/home/formidablepencil/envy/central_ai_manager/central_ai_manager/main.py': [Errno 2] No such file or directory
+
+2024-10-08 14:53:39,428 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:53:39,429 - ERROR - Command output: 
+2024-10-08 14:53:39,429 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:57:36,517 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:57:36,518 - ERROR - Command output: 
+2024-10-08 14:57:36,518 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/main.py", line 3, in <module>
+    from version_control import create_new_branch, commit_all_changes, push_changes, auto_version_control, add_git_tracked_directories
+ImportError: cannot import name 'create_new_branch' from 'version_control' (/home/formidablepencil/envy/version_control/__init__.py)
+
+2024-10-08 14:58:46,687 - ERROR - Error running script: Command '['python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:58:46,687 - ERROR - Command output: 
+2024-10-08 14:58:46,687 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 14:59:18,443 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 14:59:18,443 - ERROR - Command output: 
+2024-10-08 14:59:18,443 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 15:03:12,861 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 15:03:12,864 - INFO - PYTHONPATH set to default: envy
+2024-10-08 15:03:27,414 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main2.py']' returned non-zero exit status 1.
+2024-10-08 15:03:27,415 - ERROR - Command output: 
+2024-10-08 15:03:27,415 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main2.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 15:04:38,651 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main2.py']' returned non-zero exit status 1.
+2024-10-08 15:04:38,652 - ERROR - Command output: 
+2024-10-08 15:04:38,652 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main2.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 15:05:04,234 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main2.py']' returned non-zero exit status 1.
+2024-10-08 15:05:04,235 - ERROR - Command output: 
+2024-10-08 15:05:04,235 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main2.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 15:06:09,359 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main2.py']' returned non-zero exit status 1.
+2024-10-08 15:06:09,359 - ERROR - Command output: 
+2024-10-08 15:06:09,359 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main2.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 15:06:16,710 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 15:06:16,710 - INFO - PYTHONPATH set to default: envy
+2024-10-08 15:06:36,401 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 15:06:36,402 - INFO - PYTHONPATH set to default: envy
+2024-10-08 15:07:18,120 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main2.py']' returned non-zero exit status 1.
+2024-10-08 15:07:18,121 - ERROR - Command output: 
+2024-10-08 15:07:18,122 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main2.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 15:07:33,523 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main2.py']' returned non-zero exit status 1.
+2024-10-08 15:07:33,524 - ERROR - Command output: 
+2024-10-08 15:07:33,524 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main2.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 15:08:57,075 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main2.py']' returned non-zero exit status 1.
+2024-10-08 15:08:57,076 - ERROR - Command output: 
+2024-10-08 15:08:57,076 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main2.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 15:10:54,086 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 15:10:54,087 - ERROR - Command output: 
+2024-10-08 15:10:54,087 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from central_ai_manager.main2 import CentralAIManager
+ModuleNotFoundError: No module named 'central_ai_manager'
+
+2024-10-08 15:11:05,900 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 15:11:05,904 - INFO - PYTHONPATH set to default: envy
+2024-10-08 15:11:22,129 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 15:11:22,131 - ERROR - Command output: 
+2024-10-08 15:11:22,132 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from central_ai_manager.main2 import CentralAIManager
+ModuleNotFoundError: No module named 'central_ai_manager'
+
+2024-10-08 15:11:29,534 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 15:11:29,536 - INFO - PYTHONPATH set to default: envy
+2024-10-08 15:11:40,693 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 15:11:40,694 - ERROR - Command output: 
+2024-10-08 15:11:40,695 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from central_ai_manager.main2 import CentralAIManager
+ModuleNotFoundError: No module named 'central_ai_manager'
+
+2024-10-08 15:12:08,287 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 15:12:08,289 - ERROR - Command output: 
+2024-10-08 15:12:08,290 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from central_ai_manager.main2 import CentralAIManager
+ModuleNotFoundError: No module named 'central_ai_manager'
+
+2024-10-08 15:12:19,785 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 15:12:19,786 - ERROR - Command output: 
+2024-10-08 15:12:19,787 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from central_ai_manager.main2 import CentralAIManager
+ModuleNotFoundError: No module named 'central_ai_manager'
+
+2024-10-08 15:12:57,551 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 15:12:57,552 - INFO - PYTHONPATH set to default: envy
+2024-10-08 15:16:08,290 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main2.py']' returned non-zero exit status 1.
+2024-10-08 15:16:08,290 - ERROR - Command output: 
+2024-10-08 15:16:08,291 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main2.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 15:17:00,918 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 15:17:00,919 - INFO - PYTHONPATH set to default: envy
+2024-10-08 15:28:41,238 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 15:28:41,240 - ERROR - Command output: 
+2024-10-08 15:28:41,240 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from central_ai_manager.core import CentralAIManager
+ModuleNotFoundError: No module named 'central_ai_manager'
+
+2024-10-08 15:29:33,598 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 15:29:33,598 - ERROR - Command output: 
+2024-10-08 15:29:33,598 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from central_ai_manager.core import CentralAIManager
+ModuleNotFoundError: No module named 'central_ai_manager'
+
+2024-10-08 15:38:02,119 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 15:38:02,120 - ERROR - Command output: 
+2024-10-08 15:38:02,120 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from central_ai_manager.core import CentralAIManager
+ModuleNotFoundError: No module named 'central_ai_manager'
+
+2024-10-08 15:48:24,530 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 15:48:24,533 - INFO - Starting up UDS server on /tmp/OlMzBOxASy
+2024-10-08 15:48:24,534 - INFO - Flet app has started...
+2024-10-08 15:48:24,534 - INFO - App URL: /tmp/OlMzBOxASy
+2024-10-08 15:48:24,534 - INFO - Starting Flet View app...
+2024-10-08 15:48:24,535 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 15:48:33,131 - INFO - App session started
+2024-10-08 16:04:12,368 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:04:12,373 - INFO - Starting up UDS server on /tmp/C7Sx9xXOgS
+2024-10-08 16:04:12,380 - INFO - Flet app has started...
+2024-10-08 16:04:12,380 - INFO - App URL: /tmp/C7Sx9xXOgS
+2024-10-08 16:04:12,380 - INFO - Starting Flet View app...
+2024-10-08 16:04:12,380 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:04:21,422 - INFO - App session started
+2024-10-08 16:08:09,541 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:08:09,548 - INFO - Starting up UDS server on /tmp/PG6amBcgXU
+2024-10-08 16:08:09,551 - INFO - Flet app has started...
+2024-10-08 16:08:09,551 - INFO - App URL: /tmp/PG6amBcgXU
+2024-10-08 16:08:09,551 - INFO - Starting Flet View app...
+2024-10-08 16:08:09,552 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:08:17,901 - INFO - App session started
+2024-10-08 16:09:54,235 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:09:54,238 - INFO - Starting up UDS server on /tmp/ocvYZgxxmM
+2024-10-08 16:09:54,239 - INFO - Flet app has started...
+2024-10-08 16:09:54,239 - INFO - App URL: /tmp/ocvYZgxxmM
+2024-10-08 16:09:54,239 - INFO - Starting Flet View app...
+2024-10-08 16:09:54,239 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:10:02,660 - INFO - App session started
+2024-10-08 16:12:10,845 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:12:10,858 - INFO - Starting up UDS server on /tmp/quNqrf9TsT
+2024-10-08 16:12:10,860 - INFO - Flet app has started...
+2024-10-08 16:12:10,860 - INFO - App URL: /tmp/quNqrf9TsT
+2024-10-08 16:12:10,860 - INFO - Starting Flet View app...
+2024-10-08 16:12:10,873 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:12:20,530 - INFO - App session started
+2024-10-08 16:13:01,198 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:13:01,203 - INFO - Starting up UDS server on /tmp/TufQyvyIRE
+2024-10-08 16:13:01,203 - INFO - Flet app has started...
+2024-10-08 16:13:01,204 - INFO - App URL: /tmp/TufQyvyIRE
+2024-10-08 16:13:01,204 - INFO - Starting Flet View app...
+2024-10-08 16:13:01,205 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:13:10,981 - INFO - App session started
+2024-10-08 16:16:21,726 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:16:21,733 - INFO - Starting up UDS server on /tmp/5sDPqOlVtm
+2024-10-08 16:16:21,734 - INFO - Flet app has started...
+2024-10-08 16:16:21,734 - INFO - App URL: /tmp/5sDPqOlVtm
+2024-10-08 16:16:21,734 - INFO - Starting Flet View app...
+2024-10-08 16:16:21,735 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:16:35,132 - INFO - App session started
+2024-10-08 16:18:57,207 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:18:57,215 - INFO - Starting up UDS server on /tmp/IpdFPD2QZX
+2024-10-08 16:18:57,216 - INFO - Flet app has started...
+2024-10-08 16:18:57,216 - INFO - App URL: /tmp/IpdFPD2QZX
+2024-10-08 16:18:57,216 - INFO - Starting Flet View app...
+2024-10-08 16:18:57,217 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:19:09,371 - INFO - App session started
+2024-10-08 16:19:12,475 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:19:12,475 - ERROR - Command output: 
+2024-10-08 16:19:12,475 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from core import CentralAIManager
+  File "/home/formidablepencil/envy/central_ai_manager/core.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 16:19:13,065 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<__run_socket_server.<locals>.on_session_created() done, defined at /home/formidablepencil/envy/venv/lib/python3.11/site-packages/flet_runtime/app.py:228> exception=SystemExit(1)>
+Traceback (most recent call last):
+  File "/home/formidablepencil/envy/py", line 167, in main
+    result = subprocess.run([sys.executable, os.path.basename(args.target)], check=True, capture_output=True, text=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 607, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 1922, in _run_once
+    handle._run()
+  File "/usr/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/formidablepencil/envy/venv/lib/python3.11/site-packages/flet_runtime/app.py", line 244, in on_session_created
+    await asyncio.get_running_loop().run_in_executor(
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/formidablepencil/envy/py", line 176, in main
+    sys.exit(1)
+SystemExit: 1
+2024-10-08 16:19:59,548 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:19:59,551 - INFO - Starting up UDS server on /tmp/bWqNOnx0O0
+2024-10-08 16:19:59,556 - INFO - Flet app has started...
+2024-10-08 16:19:59,556 - INFO - App URL: /tmp/bWqNOnx0O0
+2024-10-08 16:19:59,556 - INFO - Starting Flet View app...
+2024-10-08 16:19:59,557 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:20:08,456 - INFO - App session started
+2024-10-08 16:20:12,986 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:20:12,987 - ERROR - Command output: 
+2024-10-08 16:20:12,987 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from core import CentralAIManager
+  File "/home/formidablepencil/envy/central_ai_manager/core.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 16:20:13,283 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<__run_socket_server.<locals>.on_session_created() done, defined at /home/formidablepencil/envy/venv/lib/python3.11/site-packages/flet_runtime/app.py:228> exception=SystemExit(1)>
+Traceback (most recent call last):
+  File "/home/formidablepencil/envy/py", line 167, in main
+    result = subprocess.run([sys.executable, os.path.basename(args.target)], check=True, capture_output=True, text=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 607, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 1922, in _run_once
+    handle._run()
+  File "/usr/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/formidablepencil/envy/venv/lib/python3.11/site-packages/flet_runtime/app.py", line 244, in on_session_created
+    await asyncio.get_running_loop().run_in_executor(
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/formidablepencil/envy/py", line 176, in main
+    sys.exit(1)
+SystemExit: 1
+2024-10-08 16:22:55,946 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:22:55,953 - INFO - Starting up UDS server on /tmp/HXfmiTjAPv
+2024-10-08 16:22:55,955 - INFO - Flet app has started...
+2024-10-08 16:22:55,956 - INFO - App URL: /tmp/HXfmiTjAPv
+2024-10-08 16:22:55,956 - INFO - Starting Flet View app...
+2024-10-08 16:22:55,957 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:23:08,421 - INFO - App session started
+2024-10-08 16:23:08,966 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 16:23:08,968 - INFO - PYTHONPATH set to default: envy
+2024-10-08 16:27:08,207 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:27:08,210 - INFO - Starting up UDS server on /tmp/1ySr7ejxDs
+2024-10-08 16:27:08,213 - INFO - Flet app has started...
+2024-10-08 16:27:08,213 - INFO - App URL: /tmp/1ySr7ejxDs
+2024-10-08 16:27:08,213 - INFO - Starting Flet View app...
+2024-10-08 16:27:08,214 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:27:17,315 - INFO - App session started
+2024-10-08 16:32:34,896 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:32:34,901 - INFO - Starting up UDS server on /tmp/WgoigSgjEW
+2024-10-08 16:32:34,903 - INFO - Flet app has started...
+2024-10-08 16:32:34,903 - INFO - App URL: /tmp/WgoigSgjEW
+2024-10-08 16:32:34,904 - INFO - Starting Flet View app...
+2024-10-08 16:32:34,905 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:32:48,512 - INFO - App session started
+2024-10-08 16:32:49,241 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 16:32:49,242 - INFO - PYTHONPATH set to default: envy
+2024-10-08 16:34:26,495 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:34:26,501 - INFO - Starting up UDS server on /tmp/Psbo1wmEP6
+2024-10-08 16:34:26,502 - INFO - Flet app has started...
+2024-10-08 16:34:26,502 - INFO - App URL: /tmp/Psbo1wmEP6
+2024-10-08 16:34:26,502 - INFO - Starting Flet View app...
+2024-10-08 16:34:26,508 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:34:33,731 - INFO - App session started
+2024-10-08 16:34:34,311 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 16:34:34,312 - INFO - PYTHONPATH set to default: envy
+2024-10-08 16:34:56,236 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:34:56,238 - INFO - Starting up UDS server on /tmp/CD6i6KoPt3
+2024-10-08 16:34:56,239 - INFO - Flet app has started...
+2024-10-08 16:34:56,239 - INFO - App URL: /tmp/CD6i6KoPt3
+2024-10-08 16:34:56,239 - INFO - Starting Flet View app...
+2024-10-08 16:34:56,239 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:35:04,053 - INFO - App session started
+2024-10-08 16:35:04,645 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 16:35:04,645 - INFO - PYTHONPATH set to default: envy
+2024-10-08 16:35:39,405 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:35:39,409 - INFO - Starting up UDS server on /tmp/UW0W0GL3qr
+2024-10-08 16:35:39,415 - INFO - Flet app has started...
+2024-10-08 16:35:39,415 - INFO - App URL: /tmp/UW0W0GL3qr
+2024-10-08 16:35:39,415 - INFO - Starting Flet View app...
+2024-10-08 16:35:39,416 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:35:52,207 - INFO - App session started
+2024-10-08 16:35:58,630 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:35:58,631 - ERROR - Command output: 
+2024-10-08 16:35:58,632 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from core import CentralAIManager
+  File "/home/formidablepencil/envy/central_ai_manager/core.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 16:35:59,245 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<__run_socket_server.<locals>.on_session_created() done, defined at /home/formidablepencil/envy/venv/lib/python3.11/site-packages/flet_runtime/app.py:228> exception=SystemExit(1)>
+Traceback (most recent call last):
+  File "/home/formidablepencil/envy/py", line 167, in main
+    result = subprocess.run([sys.executable, os.path.basename(args.target)], check=True, capture_output=True, text=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 607, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 1922, in _run_once
+    handle._run()
+  File "/usr/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/formidablepencil/envy/venv/lib/python3.11/site-packages/flet_runtime/app.py", line 244, in on_session_created
+    await asyncio.get_running_loop().run_in_executor(
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/formidablepencil/envy/py", line 176, in main
+    sys.exit(1)
+SystemExit: 1
+2024-10-08 16:36:49,999 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:36:50,008 - INFO - Starting up UDS server on /tmp/kwpeiJWdgC
+2024-10-08 16:36:50,019 - INFO - Flet app has started...
+2024-10-08 16:36:50,020 - INFO - App URL: /tmp/kwpeiJWdgC
+2024-10-08 16:36:50,020 - INFO - Starting Flet View app...
+2024-10-08 16:36:50,021 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:37:03,863 - INFO - App session started
+2024-10-08 16:37:06,197 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 16:37:06,199 - INFO - PYTHONPATH set to default: envy
+2024-10-08 16:38:57,066 - INFO - Assets path configured: /home/formidablepencil/envy/assets
+2024-10-08 16:38:57,117 - INFO - Starting up UDS server on /tmp/7VQVTSmraP
+2024-10-08 16:38:57,119 - INFO - Flet app has started...
+2024-10-08 16:38:57,120 - INFO - App URL: /tmp/7VQVTSmraP
+2024-10-08 16:38:57,120 - INFO - Starting Flet View app...
+2024-10-08 16:38:57,127 - INFO - Flet View found in: /home/formidablepencil/.flet/bin/flet-0.24.1
+2024-10-08 16:39:25,926 - INFO - App session started
+2024-10-08 16:39:26,940 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 16:39:26,944 - INFO - PYTHONPATH set to default: envy
+2024-10-08 16:40:57,271 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 16:40:57,273 - INFO - PYTHONPATH set to default: envy
+2024-10-08 16:41:24,510 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:41:24,510 - ERROR - Command output: 
+2024-10-08 16:41:24,511 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from core import CentralAIManager
+  File "/home/formidablepencil/envy/central_ai_manager/core.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 16:42:50,941 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:42:50,941 - ERROR - Command output: 
+2024-10-08 16:42:50,941 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 1, in <module>
+    from core import testme
+  File "/home/formidablepencil/envy/central_ai_manager/core.py", line 4, in <module>
+    from database.database import Database
+ModuleNotFoundError: No module named 'database'
+
+2024-10-08 16:43:30,636 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:43:30,636 - ERROR - Command output: 
+2024-10-08 16:43:30,636 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 2, in <module>
+    from hello_world import logging
+ModuleNotFoundError: No module named 'hello_world'
+
+2024-10-08 16:44:53,104 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:44:53,104 - ERROR - Command output: 
+2024-10-08 16:44:53,104 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 2, in <module>
+    from hello_world.logging import log_message
+ModuleNotFoundError: No module named 'hello_world'
+
+2024-10-08 16:45:04,336 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 16:45:04,338 - INFO - PYTHONPATH set to default: envy
+2024-10-08 16:45:35,575 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:45:35,576 - ERROR - Command output: 
+2024-10-08 16:45:35,576 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 2, in <module>
+    from hello_world.logging import log_message
+ModuleNotFoundError: No module named 'hello_world'
+
+2024-10-08 16:51:30,990 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:51:30,991 - ERROR - Command output: 
+2024-10-08 16:51:30,991 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/main.py", line 3, in <module>
+    from version_control import create_new_branch, commit_all_changes, push_changes, auto_version_control, add_git_tracked_directories
+ImportError: cannot import name 'create_new_branch' from 'version_control' (/home/formidablepencil/envy/version_control/__init__.py)
+
+2024-10-08 16:56:07,011 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:56:07,014 - ERROR - Command output: 
+2024-10-08 16:56:07,014 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 2, in <module>
+    from hello_world.logging import log_message
+ModuleNotFoundError: No module named 'hello_world'
+
+2024-10-08 16:56:29,106 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:56:29,107 - ERROR - Command output: 
+2024-10-08 16:56:29,107 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 2, in <module>
+    from hello_world.logging import log_message
+ModuleNotFoundError: No module named 'hello_world'
+
+2024-10-08 16:58:44,195 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 16:58:44,199 - ERROR - Command output: 
+2024-10-08 16:58:44,208 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 2, in <module>
+    from hello_world.logging import log_message
+ModuleNotFoundError: No module named 'hello_world'
+
+2024-10-08 17:02:09,713 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:02:09,713 - ERROR - Command output: 
+2024-10-08 17:02:09,713 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 2, in <module>
+    from hello_world.logging import log_message
+ModuleNotFoundError: No module named 'hello_world'
+
+2024-10-08 17:07:07,729 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:07:07,730 - ERROR - Command output: 
+2024-10-08 17:07:07,730 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 2, in <module>
+    from hello_world.logging import log_message
+ModuleNotFoundError: No module named 'hello_world'
+
+2024-10-08 17:08:59,968 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:08:59,969 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:09:17,286 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:09:17,287 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:09:23,251 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:09:23,253 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:10:29,115 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:10:29,120 - ERROR - Command output: 
+2024-10-08 17:10:29,120 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:11:14,415 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:11:14,416 - ERROR - Command output: 
+2024-10-08 17:11:14,416 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:11:36,011 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:11:36,011 - ERROR - Command output: 
+2024-10-08 17:11:36,011 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:11:49,121 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:11:49,122 - ERROR - Command output: 
+2024-10-08 17:11:49,122 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:11:58,684 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:11:58,685 - ERROR - Command output: 
+2024-10-08 17:11:58,685 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:12:44,889 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:12:44,894 - ERROR - Command output: 
+2024-10-08 17:12:44,894 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:12:53,822 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:12:53,822 - ERROR - Command output: 
+2024-10-08 17:12:53,822 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:13:59,987 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:14:00,081 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:14:00,081 - ERROR - Command output: 
+2024-10-08 17:14:00,081 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:14:18,409 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:14:18,460 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:14:18,465 - ERROR - Command output: 
+2024-10-08 17:14:18,469 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:14:38,456 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:14:38,497 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:14:38,499 - ERROR - Command output: 
+2024-10-08 17:14:38,499 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:15:07,823 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:15:07,860 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:15:07,861 - ERROR - Command output: 
+2024-10-08 17:15:07,861 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:15:14,855 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:15:14,922 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:15:29,096 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:15:29,129 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:15:29,130 - ERROR - Command output: 
+2024-10-08 17:15:29,130 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:15:36,930 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:15:36,961 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:15:36,961 - ERROR - Command output: 
+2024-10-08 17:15:36,961 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:16:07,549 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:16:07,604 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:16:07,604 - ERROR - Command output: 
+2024-10-08 17:16:07,604 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:16:41,435 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:16:41,475 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:16:41,475 - ERROR - Command output: 
+2024-10-08 17:16:41,475 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:17:09,807 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:17:09,865 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:17:09,866 - ERROR - Command output: 
+2024-10-08 17:17:09,866 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:17:19,457 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:17:19,541 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:20:03,477 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:20:03,517 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:20:18,159 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:20:18,251 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:20:18,253 - ERROR - Command output: 
+2024-10-08 17:20:18,255 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:20:28,408 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:20:28,443 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:20:28,444 - ERROR - Command output: 
+2024-10-08 17:20:28,445 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:20:33,932 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:20:34,083 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:20:34,083 - ERROR - Command output: 
+2024-10-08 17:20:34,083 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:21:48,934 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:21:48,967 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:21:58,696 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:21:58,726 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:21:58,726 - ERROR - Command output: 
+2024-10-08 17:21:58,726 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:26:59,353 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:26:59,403 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:30:43,782 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:30:43,916 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'main.py']' returned non-zero exit status 1.
+2024-10-08 17:30:43,917 - ERROR - Command output: 
+2024-10-08 17:30:43,917 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/main.py", line 3, in <module>
+    from version_control import create_new_branch, commit_all_changes, push_changes, auto_version_control, add_git_tracked_directories
+ImportError: cannot import name 'create_new_branch' from 'version_control' (/home/formidablepencil/envy/version_control/__init__.py)
+
+2024-10-08 17:30:52,250 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:30:52,282 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:35:37,643 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:35:37,726 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 main.py
+2024-10-08 17:36:35,430 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:36:35,473 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 central_ai_manager/main.py
+2024-10-08 17:36:52,400 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:36:52,432 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'central_ai_manager/main.py']' returned non-zero exit status 1.
+2024-10-08 17:36:52,433 - ERROR - Command output: 
+2024-10-08 17:36:52,433 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:37:08,672 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:37:08,697 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'central_ai_manager/main.py']' returned non-zero exit status 1.
+2024-10-08 17:37:08,697 - ERROR - Command output: 
+2024-10-08 17:37:08,697 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:37:22,792 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:37:22,819 - ERROR - Error running script: Command '['/home/formidablepencil/envy/venv/bin/python3', 'central_ai_manager/main.py']' returned non-zero exit status 1.
+2024-10-08 17:37:22,819 - ERROR - Command output: 
+2024-10-08 17:37:22,819 - ERROR - Command error: Traceback (most recent call last):
+  File "/home/formidablepencil/envy/central_ai_manager/main.py", line 3, in <module>
+    from testme import testmeplz
+ModuleNotFoundError: No module named 'testme'
+
+2024-10-08 17:39:04,610 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:39:04,667 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 central_ai_manager/main.py
+2024-10-08 17:39:47,987 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:39:48,013 - INFO - Successfully executed command: /home/formidablepencil/envy/venv/bin/python3 central_ai_manager/main.py
+2024-10-08 17:40:29,113 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:40:29,147 - ERROR - Error running command: Command '['/home/formidablepencil/envy/venv/bin/python3', '-m', 'pytest', '--color=yes', '.']' returned non-zero exit status 1.
+2024-10-08 17:40:29,147 - ERROR - Command output: 
+2024-10-08 17:40:29,148 - ERROR - Command error: /home/formidablepencil/envy/venv/bin/python3: No module named pytest
+
+2024-10-08 17:41:04,773 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:46:11,925 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:48:40,336 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:48:52,141 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 17:48:52,142 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 3, 'task_id': 3, 'completed_at': '2023-04[61 chars]e X'} != {'id': 1, 'task_id': 3, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 3,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 3}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 5, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 5, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ---------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 60, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 60}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 3, 'task_id': 3, 'completed_at': '2023-04[61 chars]e...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 5, 'name': 'Scheduling', 'description': 'Coordinate ...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 60, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 2.30s[0m[31m ==========================[0m
+
+2024-10-08 17:48:52,142 - ERROR - Command error: 
+2024-10-08 17:49:10,607 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:49:23,892 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 17:49:23,892 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 4, 'task_id': 4, 'completed_at': '2023-04[61 chars]e X'} != {'id': 1, 'task_id': 4, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 4,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 4}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 7, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 7, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ---------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 62, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 62}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 4, 'task_id': 4, 'completed_at': '2023-04[61 chars]e...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 7, 'name': 'Scheduling', 'description': 'Coordinate ...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 62, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 1.69s[0m[31m ==========================[0m
+
+2024-10-08 17:49:23,894 - ERROR - Command error: 
+2024-10-08 17:51:00,042 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:51:11,758 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:57:54,966 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:57:57,338 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 17:57:57,338 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 5, 'task_id': 5, 'completed_at': '2023-04[61 chars]e X'} != {'id': 1, 'task_id': 5, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 5,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 5}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 9, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 9, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ---------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 64, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 64}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 5, 'task_id': 5, 'completed_at': '2023-04[61 chars]e...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 9, 'name': 'Scheduling', 'description': 'Coordinate ...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 64, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 0.37s[0m[31m ==========================[0m
+
+2024-10-08 17:57:57,339 - ERROR - Command error: 
+2024-10-08 17:58:09,312 - INFO - PYTHONPATH set to default: envy
+2024-10-08 17:58:12,030 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 17:58:12,031 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 6, 'task_id': 6, 'completed_at': '2023-04[61 chars]e X'} != {'id': 1, 'task_id': 6, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 6,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 6}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 11, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 11, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 66, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 66}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 6, 'task_id': 6, 'completed_at': '2023-04[61 chars]e...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 11, 'name': 'Scheduling', 'description': 'Coordinate...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 66, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 0.41s[0m[31m ==========================[0m
+
+2024-10-08 17:58:12,031 - ERROR - Command error: 
+2024-10-08 18:18:35,954 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:18:38,901 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 18:18:38,901 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 7, 'task_id': 7, 'completed_at': '2023-04[61 chars]e X'} != {'id': 1, 'task_id': 7, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 7,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 7}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 13, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 13, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 68, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 68}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 7, 'task_id': 7, 'completed_at': '2023-04[61 chars]e...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 13, 'name': 'Scheduling', 'description': 'Coordinate...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 68, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 0.42s[0m[31m ==========================[0m
+
+2024-10-08 18:18:38,901 - ERROR - Command error: 
+2024-10-08 18:18:52,273 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:18:52,273 - INFO - Running integration tests for ./py in directory: /home/formidablepencil/envy/
+2024-10-08 18:18:54,902 - ERROR - Error running command: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/', '-k', 'unit']' returned non-zero exit status 2.
+2024-10-08 18:18:54,903 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 17 items / 3 errors / 14 deselected / 3 selected
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting codebase_manager/test_codebase_manager.py __________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/codebase_manager/test_codebase_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codebase_manager/test_codebase_manager.py:3: in <module>
+    from codebase_manager import CodebaseManager
+codebase_manager/codebase_manager.py:3: in <module>
+    from version_control_manager import VersionControlManager
+E   ModuleNotFoundError: No module named 'version_control_manager'[0m
+[31m[1m____________________ ERROR collecting tests/unit/test_py.py ____________________[0m
+[31mimport file mismatch:
+imported module 'test_py' has this __file__ attribute:
+  /home/formidablepencil/envy/tests/integration/test_py.py
+which is not the same as the test file we want to collect:
+  /home/formidablepencil/envy/tests/unit/test_py.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules[0m
+[31m[1m___________ ERROR collecting version_control/test_auto_versioning.py ___________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/version_control/test_auto_versioning.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+version_control/test_auto_versioning.py:1: in <module>
+    from .git_operations import (
+E   ModuleNotFoundError: No module named 'envy.version_control.git_operations'[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m codebase_manager/test_codebase_manager.py
+[31mERROR[0m tests/unit/test_py.py
+[31mERROR[0m version_control/test_auto_versioning.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m======================= [33m14 deselected[0m, [31m[1m3 errors[0m[31m in 0.47s[0m[31m =======================[0m
+
+2024-10-08 18:18:54,903 - ERROR - Command error: 
+2024-10-08 18:19:18,980 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:19:18,980 - INFO - Running unit tests for ./py in directory: /home/formidablepencil/envy/
+2024-10-08 18:19:21,726 - ERROR - Error running command: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/', '-k', 'unit']' returned non-zero exit status 2.
+2024-10-08 18:19:21,727 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 17 items / 3 errors / 14 deselected / 3 selected
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting codebase_manager/test_codebase_manager.py __________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/codebase_manager/test_codebase_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codebase_manager/test_codebase_manager.py:3: in <module>
+    from codebase_manager import CodebaseManager
+codebase_manager/codebase_manager.py:3: in <module>
+    from version_control_manager import VersionControlManager
+E   ModuleNotFoundError: No module named 'version_control_manager'[0m
+[31m[1m____________________ ERROR collecting tests/unit/test_py.py ____________________[0m
+[31mimport file mismatch:
+imported module 'test_py' has this __file__ attribute:
+  /home/formidablepencil/envy/tests/integration/test_py.py
+which is not the same as the test file we want to collect:
+  /home/formidablepencil/envy/tests/unit/test_py.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules[0m
+[31m[1m___________ ERROR collecting version_control/test_auto_versioning.py ___________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/version_control/test_auto_versioning.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+version_control/test_auto_versioning.py:1: in <module>
+    from .git_operations import (
+E   ModuleNotFoundError: No module named 'envy.version_control.git_operations'[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m codebase_manager/test_codebase_manager.py
+[31mERROR[0m tests/unit/test_py.py
+[31mERROR[0m version_control/test_auto_versioning.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m======================= [33m14 deselected[0m, [31m[1m3 errors[0m[31m in 0.36s[0m[31m =======================[0m
+
+2024-10-08 18:19:21,727 - ERROR - Command error: 
+2024-10-08 18:19:32,351 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:19:32,352 - INFO - Running integration tests for ./py in directory: /home/formidablepencil/envy/
+2024-10-08 18:19:34,936 - ERROR - Error running command: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/', '-k', 'unit']' returned non-zero exit status 2.
+2024-10-08 18:19:34,937 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 17 items / 3 errors / 14 deselected / 3 selected
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting codebase_manager/test_codebase_manager.py __________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/codebase_manager/test_codebase_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codebase_manager/test_codebase_manager.py:3: in <module>
+    from codebase_manager import CodebaseManager
+codebase_manager/codebase_manager.py:3: in <module>
+    from version_control_manager import VersionControlManager
+E   ModuleNotFoundError: No module named 'version_control_manager'[0m
+[31m[1m____________________ ERROR collecting tests/unit/test_py.py ____________________[0m
+[31mimport file mismatch:
+imported module 'test_py' has this __file__ attribute:
+  /home/formidablepencil/envy/tests/integration/test_py.py
+which is not the same as the test file we want to collect:
+  /home/formidablepencil/envy/tests/unit/test_py.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules[0m
+[31m[1m___________ ERROR collecting version_control/test_auto_versioning.py ___________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/version_control/test_auto_versioning.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+version_control/test_auto_versioning.py:1: in <module>
+    from .git_operations import (
+E   ModuleNotFoundError: No module named 'envy.version_control.git_operations'[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m codebase_manager/test_codebase_manager.py
+[31mERROR[0m tests/unit/test_py.py
+[31mERROR[0m version_control/test_auto_versioning.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m======================= [33m14 deselected[0m, [31m[1m3 errors[0m[31m in 0.38s[0m[31m =======================[0m
+
+2024-10-08 18:19:34,937 - ERROR - Command error: 
+2024-10-08 18:19:43,336 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:19:47,193 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 18:19:47,193 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 8, 'task_id': 8, 'completed_at': '2023-04[61 chars]e X'} != {'id': 1, 'task_id': 8, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 8,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 8}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 15, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 15, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 70, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 70}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 8, 'task_id': 8, 'completed_at': '2023-04[61 chars]e...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 15, 'name': 'Scheduling', 'description': 'Coordinate...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 70, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 0.94s[0m[31m ==========================[0m
+
+2024-10-08 18:19:47,194 - ERROR - Command error: 
+2024-10-08 18:21:08,219 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:21:08,223 - INFO - Running unit tests for ./py in directory: /home/formidablepencil/envy/
+2024-10-08 18:21:13,306 - ERROR - Error running command: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/', '-k', 'unit']' returned non-zero exit status 2.
+2024-10-08 18:21:13,317 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 17 items / 3 errors / 14 deselected / 3 selected
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting codebase_manager/test_codebase_manager.py __________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/codebase_manager/test_codebase_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codebase_manager/test_codebase_manager.py:3: in <module>
+    from codebase_manager import CodebaseManager
+codebase_manager/codebase_manager.py:3: in <module>
+    from version_control_manager import VersionControlManager
+E   ModuleNotFoundError: No module named 'version_control_manager'[0m
+[31m[1m____________________ ERROR collecting tests/unit/test_py.py ____________________[0m
+[31mimport file mismatch:
+imported module 'test_py' has this __file__ attribute:
+  /home/formidablepencil/envy/tests/integration/test_py.py
+which is not the same as the test file we want to collect:
+  /home/formidablepencil/envy/tests/unit/test_py.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules[0m
+[31m[1m___________ ERROR collecting version_control/test_auto_versioning.py ___________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/version_control/test_auto_versioning.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+version_control/test_auto_versioning.py:1: in <module>
+    from .git_operations import (
+E   ModuleNotFoundError: No module named 'envy.version_control.git_operations'[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m codebase_manager/test_codebase_manager.py
+[31mERROR[0m tests/unit/test_py.py
+[31mERROR[0m version_control/test_auto_versioning.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m======================= [33m14 deselected[0m, [31m[1m3 errors[0m[31m in 1.24s[0m[31m =======================[0m
+
+2024-10-08 18:21:13,318 - ERROR - Command error: 
+2024-10-08 18:21:46,467 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:21:46,467 - INFO - Running integration tests for ./py in directory: /home/formidablepencil/envy/
+2024-10-08 18:21:50,587 - ERROR - Error running command: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/', '-k', 'unit']' returned non-zero exit status 2.
+2024-10-08 18:21:50,588 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 17 items / 3 errors / 14 deselected / 3 selected
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting codebase_manager/test_codebase_manager.py __________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/codebase_manager/test_codebase_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codebase_manager/test_codebase_manager.py:3: in <module>
+    from codebase_manager import CodebaseManager
+codebase_manager/codebase_manager.py:3: in <module>
+    from version_control_manager import VersionControlManager
+E   ModuleNotFoundError: No module named 'version_control_manager'[0m
+[31m[1m____________________ ERROR collecting tests/unit/test_py.py ____________________[0m
+[31mimport file mismatch:
+imported module 'test_py' has this __file__ attribute:
+  /home/formidablepencil/envy/tests/integration/test_py.py
+which is not the same as the test file we want to collect:
+  /home/formidablepencil/envy/tests/unit/test_py.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules[0m
+[31m[1m___________ ERROR collecting version_control/test_auto_versioning.py ___________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/version_control/test_auto_versioning.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+version_control/test_auto_versioning.py:1: in <module>
+    from .git_operations import (
+E   ModuleNotFoundError: No module named 'envy.version_control.git_operations'[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m codebase_manager/test_codebase_manager.py
+[31mERROR[0m tests/unit/test_py.py
+[31mERROR[0m version_control/test_auto_versioning.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m======================= [33m14 deselected[0m, [31m[1m3 errors[0m[31m in 0.56s[0m[31m =======================[0m
+
+2024-10-08 18:21:50,588 - ERROR - Command error: 
+2024-10-08 18:31:00,483 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:31:00,490 - INFO - Running integration tests for ./py in directory: /home/formidablepencil/envy/
+2024-10-08 18:31:07,924 - ERROR - Error running command: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/', '-k', 'unit']' returned non-zero exit status 2.
+2024-10-08 18:31:07,925 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 17 items / 3 errors / 14 deselected / 3 selected
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting codebase_manager/test_codebase_manager.py __________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/codebase_manager/test_codebase_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codebase_manager/test_codebase_manager.py:3: in <module>
+    from codebase_manager import CodebaseManager
+codebase_manager/codebase_manager.py:3: in <module>
+    from version_control_manager import VersionControlManager
+E   ModuleNotFoundError: No module named 'version_control_manager'[0m
+[31m[1m____________________ ERROR collecting tests/unit/test_py.py ____________________[0m
+[31mimport file mismatch:
+imported module 'test_py' has this __file__ attribute:
+  /home/formidablepencil/envy/tests/integration/test_py.py
+which is not the same as the test file we want to collect:
+  /home/formidablepencil/envy/tests/unit/test_py.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules[0m
+[31m[1m___________ ERROR collecting version_control/test_auto_versioning.py ___________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/version_control/test_auto_versioning.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+version_control/test_auto_versioning.py:1: in <module>
+    from .git_operations import (
+E   ModuleNotFoundError: No module named 'envy.version_control.git_operations'[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m codebase_manager/test_codebase_manager.py
+[31mERROR[0m tests/unit/test_py.py
+[31mERROR[0m version_control/test_auto_versioning.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m======================= [33m14 deselected[0m, [31m[1m3 errors[0m[31m in 0.79s[0m[31m =======================[0m
+
+2024-10-08 18:31:07,926 - ERROR - Command error: 
+2024-10-08 18:41:26,916 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:41:26,917 - INFO - Running integration tests for py script in directory: /home/formidablepencil/envy/tests/integration/test_py.py
+2024-10-08 18:41:33,818 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:41:33,819 - INFO - Running unit tests for py script in directory: /home/formidablepencil/envy/tests/unit/test_py.py
+2024-10-08 18:41:38,623 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:41:43,069 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 18:41:43,069 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 9, 'task_id': 9, 'completed_at': '2023-04[61 chars]e X'} != {'id': 1, 'task_id': 9, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 9,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE       ?        ^[0m
+[1m[31mE       [0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 9}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 17, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 17, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 72, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 72}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 9, 'task_id': 9, 'completed_at': '2023-04[61 chars]e...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 17, 'name': 'Scheduling', 'description': 'Coordinate...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 72, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 0.42s[0m[31m ==========================[0m
+
+2024-10-08 18:41:43,070 - ERROR - Command error: 
+2024-10-08 18:43:13,164 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:43:13,165 - INFO - Running unit tests for py script in directory: /home/formidablepencil/envy/tests/unit/test_py.py
+2024-10-08 18:43:22,458 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:43:22,473 - INFO - Running integration tests for py script in directory: /home/formidablepencil/envy/tests/integration/test_py.py
+2024-10-08 18:43:55,794 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:43:55,795 - INFO - Running integration tests for py script in directory: /home/formidablepencil/envy/tests/integration/test_py.py
+2024-10-08 18:44:49,704 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:44:49,705 - INFO - Running integration tests for py script in directory: /home/formidablepencil/envy/tests/integration/test_py.py
+2024-10-08 18:49:39,718 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:49:39,722 - INFO - Running integration tests for py script in directory: /home/formidablepencil/envy/tests/integration/test_py.py
+2024-10-08 18:49:54,687 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:49:54,689 - INFO - Running unit tests for py script in directory: /home/formidablepencil/envy/tests/unit/test_py.py
+2024-10-08 18:55:49,179 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:55:49,180 - INFO - Running unit tests for ./py in directory: /home/formidablepencil/envy/
+2024-10-08 18:55:50,258 - ERROR - Error running command: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/', '-k', 'unit']' returned non-zero exit status 2.
+2024-10-08 18:55:50,258 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 17 items / 3 errors / 14 deselected / 3 selected
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting codebase_manager/test_codebase_manager.py __________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/codebase_manager/test_codebase_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codebase_manager/test_codebase_manager.py:3: in <module>
+    from codebase_manager import CodebaseManager
+codebase_manager/codebase_manager.py:3: in <module>
+    from version_control_manager import VersionControlManager
+E   ModuleNotFoundError: No module named 'version_control_manager'[0m
+[31m[1m____________________ ERROR collecting tests/unit/test_py.py ____________________[0m
+[31mimport file mismatch:
+imported module 'test_py' has this __file__ attribute:
+  /home/formidablepencil/envy/tests/integration/test_py.py
+which is not the same as the test file we want to collect:
+  /home/formidablepencil/envy/tests/unit/test_py.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules[0m
+[31m[1m___________ ERROR collecting version_control/test_auto_versioning.py ___________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/version_control/test_auto_versioning.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+version_control/test_auto_versioning.py:1: in <module>
+    from .git_operations import (
+E   ModuleNotFoundError: No module named 'envy.version_control.git_operations'[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m codebase_manager/test_codebase_manager.py
+[31mERROR[0m tests/unit/test_py.py
+[31mERROR[0m version_control/test_auto_versioning.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m======================= [33m14 deselected[0m, [31m[1m3 errors[0m[31m in 0.43s[0m[31m =======================[0m
+
+2024-10-08 18:55:50,259 - ERROR - Command error: 
+2024-10-08 18:55:59,672 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:55:59,673 - INFO - Running integration tests for ./py in directory: /home/formidablepencil/envy/
+2024-10-08 18:56:00,505 - ERROR - Error running command: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/', '-k', 'unit']' returned non-zero exit status 2.
+2024-10-08 18:56:00,506 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 17 items / 3 errors / 14 deselected / 3 selected
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting codebase_manager/test_codebase_manager.py __________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/codebase_manager/test_codebase_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codebase_manager/test_codebase_manager.py:3: in <module>
+    from codebase_manager import CodebaseManager
+codebase_manager/codebase_manager.py:3: in <module>
+    from version_control_manager import VersionControlManager
+E   ModuleNotFoundError: No module named 'version_control_manager'[0m
+[31m[1m____________________ ERROR collecting tests/unit/test_py.py ____________________[0m
+[31mimport file mismatch:
+imported module 'test_py' has this __file__ attribute:
+  /home/formidablepencil/envy/tests/integration/test_py.py
+which is not the same as the test file we want to collect:
+  /home/formidablepencil/envy/tests/unit/test_py.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules[0m
+[31m[1m___________ ERROR collecting version_control/test_auto_versioning.py ___________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/version_control/test_auto_versioning.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+version_control/test_auto_versioning.py:1: in <module>
+    from .git_operations import (
+E   ModuleNotFoundError: No module named 'envy.version_control.git_operations'[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m codebase_manager/test_codebase_manager.py
+[31mERROR[0m tests/unit/test_py.py
+[31mERROR[0m version_control/test_auto_versioning.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m======================= [33m14 deselected[0m, [31m[1m3 errors[0m[31m in 0.36s[0m[31m =======================[0m
+
+2024-10-08 18:56:00,506 - ERROR - Command error: 
+2024-10-08 18:56:06,635 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:56:09,563 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 18:56:09,563 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 10, 'task_id': 10, 'completed_at': '2023-0[62 chars]e X'} != {'id': 1, 'task_id': 10, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 10,[0m
+[1m[31mE       ?         -[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 10}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 19, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 19, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 74, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 74}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 10, 'task_id': 10, 'completed_at': '2023-0[62 chars]...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 19, 'name': 'Scheduling', 'description': 'Coordinate...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 74, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 0.41s[0m[31m ==========================[0m
+
+2024-10-08 18:56:09,563 - ERROR - Command error: 
+2024-10-08 18:56:30,152 - INFO - PYTHONPATH set to default: envy
+2024-10-08 18:56:30,154 - INFO - Running integration tests for ./py in directory: /home/formidablepencil/envy/
+2024-10-08 18:56:31,522 - ERROR - Error running command: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/', '-k', 'unit']' returned non-zero exit status 2.
+2024-10-08 18:56:31,523 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 17 items / 3 errors / 14 deselected / 3 selected
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting codebase_manager/test_codebase_manager.py __________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/codebase_manager/test_codebase_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+codebase_manager/test_codebase_manager.py:3: in <module>
+    from codebase_manager import CodebaseManager
+codebase_manager/codebase_manager.py:3: in <module>
+    from version_control_manager import VersionControlManager
+E   ModuleNotFoundError: No module named 'version_control_manager'[0m
+[31m[1m____________________ ERROR collecting tests/unit/test_py.py ____________________[0m
+[31mimport file mismatch:
+imported module 'test_py' has this __file__ attribute:
+  /home/formidablepencil/envy/tests/integration/test_py.py
+which is not the same as the test file we want to collect:
+  /home/formidablepencil/envy/tests/unit/test_py.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules[0m
+[31m[1m___________ ERROR collecting version_control/test_auto_versioning.py ___________[0m
+[31mImportError while importing test module '/home/formidablepencil/envy/version_control/test_auto_versioning.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+version_control/test_auto_versioning.py:1: in <module>
+    from .git_operations import (
+E   ModuleNotFoundError: No module named 'envy.version_control.git_operations'[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m codebase_manager/test_codebase_manager.py
+[31mERROR[0m tests/unit/test_py.py
+[31mERROR[0m version_control/test_auto_versioning.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m======================= [33m14 deselected[0m, [31m[1m3 errors[0m[31m in 0.50s[0m[31m =======================[0m
+
+2024-10-08 18:56:31,523 - ERROR - Command error: 
+2024-10-08 19:24:33,169 - INFO - PYTHONPATH set to default: envy
+2024-10-08 19:24:36,049 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 19:24:36,049 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 11, 'task_id': 11, 'completed_at': '2023-0[62 chars]e X'} != {'id': 1, 'task_id': 11, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 11,[0m
+[1m[31mE       ?        -[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 11}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 21, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 21, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 76, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 76}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 11, 'task_id': 11, 'completed_at': '2023-0[62 chars]...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 21, 'name': 'Scheduling', 'description': 'Coordinate...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 76, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 0.42s[0m[31m ==========================[0m
+
+2024-10-08 19:24:36,049 - ERROR - Command error: 
+2024-10-08 19:24:51,166 - INFO - PYTHONPATH set to default: envy
+2024-10-08 19:24:53,685 - ERROR - Error running unit tests: Command '['pytest', '--color=yes', '/home/formidablepencil/envy/tests/unit']' returned non-zero exit status 1.
+2024-10-08 19:24:53,685 - ERROR - Command output: [1m============================= test session starts ==============================[0m
+platform linux -- Python 3.11.2, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/formidablepencil/envy
+configfile: pytest.ini
+plugins: anyio-4.6.0
+collected 6 items
+
+tests/unit/test_database.py [31mF[0m[31mF[0m[31mF[0m[31m                                          [ 50%][0m
+tests/unit/test_py.py [32m.[0m[32m.[0m[32m.[0m[31m                                                [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________ TestDatabase.test_commit_task _________________________[0m
+
+self = <test_database.TestDatabase testMethod=test_commit_task>
+
+    [0m[94mdef[39;49;00m [92mtest_commit_task[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        task = {[33m"[39;49;00m[33mtitle[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mTask 1[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mDo something[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        task_id = [96mself[39;49;00m.db.commit_task(task, [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        tasks = [96mself[39;49;00m.db.get_tasks()[90m[39;49;00m
+        records = [96mself[39;49;00m.db.get_completion_records()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(tasks), [94m1[39;49;00m)[90m[39;49;00m
+        [96mself[39;49;00m.assertDictEqual(tasks[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: task_id, **task})[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(records), [94m1[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(records[[94m0[39;49;00m], {[33m'[39;49;00m[33mid[39;49;00m[33m'[39;49;00m: [94m1[39;49;00m, [33m'[39;49;00m[33mtask_id[39;49;00m[33m'[39;49;00m: task_id, [33m'[39;49;00m[33mcompleted_at[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2023-04-01[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mrelated_tasks[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33m2,3[39;49;00m[33m"[39;49;00m, [33m'[39;49;00m[33mimpact_notes[39;49;00m[33m'[39;49;00m: [33m"[39;49;00m[33mImpacts feature X[39;49;00m[33m"[39;49;00m})[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 12, 'task_id': 12, 'completed_at': '2023-0[62 chars]e X'} != {'id': 1, 'task_id': 12, 'completed_at': '2023-04[61 chars]e X'}[0m
+[1m[31mE         {'completed_at': '2023-04-01',[0m
+[1m[31mE       -  'id': 12,[0m
+[1m[31mE       ?         -[0m
+[1m[31mE       [0m
+[1m[31mE       +  'id': 1,[0m
+[1m[31mE          'impact_notes': 'Impacts feature X',[0m
+[1m[31mE          'related_tasks': '2,3',[0m
+[1m[31mE          'task_id': 12}[0m
+
+[1m[31mtests/unit/test_database.py[0m:27: AssertionError
+[31m[1m_______ TestDatabase.test_create_and_retrieve_coordination_capabilities ________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_coordination_capabilities>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_coordination_capabilities[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        capability1 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mScheduling[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task scheduling[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        capability2 = {[33m"[39;49;00m[33mname[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mNotifications[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mCoordinate task notifications[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_coordination_capability(capability2)[90m[39;49;00m
+        capabilities = [96mself[39;49;00m.db.get_coordination_capabilities()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(capabilities), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(capabilities[[94m0[39;49;00m], capability1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 23, 'name': 'Scheduling', 'description': 'Coordinate task scheduling'} != {'name': 'Scheduling', 'description': 'Coordinate task scheduling'}[0m
+[1m[31mE       - {'description': 'Coordinate task scheduling', 'id': 23, 'name': 'Scheduling'}[0m
+[1m[31mE       ?                                               ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'description': 'Coordinate task scheduling', 'name': 'Scheduling'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:46: AssertionError
+[31m[1m_________ TestDatabase.test_create_and_retrieve_implementation_details _________[0m
+
+self = <test_database.TestDatabase testMethod=test_create_and_retrieve_implementation_details>
+
+    [0m[94mdef[39;49;00m [92mtest_create_and_retrieve_implementation_details[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+        detail1 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mUI[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement button functionality[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        detail2 = {[33m"[39;49;00m[33mcomponent[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mBackend[39;49;00m[33m"[39;49;00m, [33m"[39;49;00m[33mdescription[39;49;00m[33m"[39;49;00m: [33m"[39;49;00m[33mImplement API endpoint[39;49;00m[33m"[39;49;00m}[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail1)[90m[39;49;00m
+        [96mself[39;49;00m.db.create_implementation_detail(detail2)[90m[39;49;00m
+        details = [96mself[39;49;00m.db.get_implementation_details()[90m[39;49;00m
+        [96mself[39;49;00m.assertEqual([96mlen[39;49;00m(details), [94m2[39;49;00m)[90m[39;49;00m
+>       [96mself[39;49;00m.assertDictEqual(details[[94m0[39;49;00m], detail1)[90m[39;49;00m
+[1m[31mE       AssertionError: {'id': 78, 'component': 'UI', 'description': 'Implement button functionality'} != {'component': 'UI', 'description': 'Implement button functionality'}[0m
+[1m[31mE       - {'component': 'UI', 'description': 'Implement button functionality', 'id': 78}[0m
+[1m[31mE       ?                                                                    ----------[0m
+[1m[31mE       [0m
+[1m[31mE       + {'component': 'UI', 'description': 'Implement button functionality'}[0m
+
+[1m[31mtests/unit/test_database.py[0m:36: AssertionError
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_commit_task[0m - AssertionError: {'id': 12, 'task_id': 12, 'completed_at': '2023-0[62 chars]...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_coordination_capabilities[0m - AssertionError: {'id': 23, 'name': 'Scheduling', 'description': 'Coordinate...
+[31mFAILED[0m tests/unit/test_database.py::[1mTestDatabase::test_create_and_retrieve_implementation_details[0m - AssertionError: {'id': 78, 'component': 'UI', 'description': 'Implement but...
+[31m========================= [31m[1m3 failed[0m, [32m3 passed[0m[31m in 0.38s[0m[31m ==========================[0m
+
+2024-10-08 19:24:53,685 - ERROR - Command error: 
