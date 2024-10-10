@@ -1,7 +1,7 @@
 import os
 import uuid
 from version_control_manager import VersionControlManager
-from utils import log_message
+from utils.utils import log_message
 from version_control.auto_versioning import auto_version_directory
 
 class CodebaseManager:

@@ -1,5 +1,5 @@
 TEST_MAPPING = {
-    'py/': {
+    'py_cmd/': {
         'main.py': {
             'unit': 'tests/unit/test_py_main.py',
             'integration': 'tests/integration/test_py_main.py'

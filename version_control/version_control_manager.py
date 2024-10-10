@@ -1,7 +1,7 @@
 import os
 import uuid
 import subprocess
-from utils import execute_command, log_message
+from utils.utils import execute_command, log_message
 
 class VersionControlManager:
     def __init__(self, repo_path='.'):

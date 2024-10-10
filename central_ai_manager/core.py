@@ -21,8 +21,8 @@ class CentralAIManager:
         self.register_ai_component("code_generator", CodeGenerator())
 
         self.page = page
-        # if start_ui:
-        #     self.setup_ui()
+        if start_ui:
+            self.setup_ui()
 
     def register_ai_component(self, name, component):
         # Check component version and dependencies

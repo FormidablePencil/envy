@@ -3,7 +3,7 @@ import sys
 import requests
 import json
 from config import API_ENDPOINT, API_KEY
-from utils import fetch_user_data, generate_report
+from utils.utils import fetch_user_data, generate_report
 
 # Function to fetch and manage user data from various sources
 def fetch_and_manage_user_data():
