@@ -3,9 +3,11 @@ import sys
 import subprocess
 import argparse
 import logging
-from .test_runner import run_tests, run_all_tests
+from .test_runner import run_tests, run_all_tests_in_cwd
 from .task_executor import execute_task
 from .code_generator import generate_code_from_anywhere, apply_changes_from_anywhere
+from utils.utils import is_empty
+from cli_args import set_cli_args
 
 def set_pythonpath(path):
     """Sets the PYTHONPATH environment variable."""
@@ -17,28 +19,20 @@ def set_pythonpath(path):
         logging.info(f"PYTHONPATH set to default: envy")
 
 def main():
-    parser = argparse.ArgumentParser(description='Run a Python script, test suite, or AI-powered codebase operations.')
-    parser.add_argument('target', nargs='?', default=None, help='The Python script, directory of tests, or task to execute.')
-    parser.add_argument('-p', '--pythonpath', default=None, help='The PYTHONPATH to set.')
-    parser.add_argument('-t', '--test', action='store_true', help='Run all tests (unit and integration).')
-    parser.add_argument('-ut', '--unit-test', action='store_true', help='Run unit tests only.')
-    parser.add_argument('-it', '--integration-test', action='store_true', help='Run integration tests only.')
-    parser.add_argument('-e', '--execute-task', action='store_true', help='Execute a task using the CentralAIManager.')
-    parser.add_argument('-g', '--generate-from-anywhere', action='store_true', help='Generate code from anywhere using the CentralAIManager.')
-    parser.add_argument('-a', '--apply-changes-from-anywhere', action='store_true', help='Apply changes from anywhere using the CentralAIManager.')
-    args = parser.parse_args()
-
-    pythonpath = args.pythonpath
-    set_pythonpath(pythonpath)
+    args = set_cli_args(argparse)
+    # pythonpath = args.pythonpath
+    # set_pythonpath(pythonpath)
+    # TODO: may just not need set_pythonpath since we are executing py as module rather than file
 
     if args.test or args.unit_test or args.integration_test:
         # Run tests
-        if args.unit_test:
-            run_tests(args.target, 'unit')
-        elif args.integration_test:
-            run_tests(args.target, 'integration')
-        else:
-            run_all_tests(args.target)
+        if args.target:
+            if args.unit_test:
+                run_tests(args.target, 'unit')
+            elif args.integration_test:
+                run_tests(args.target, 'integration')
+        elif not args.target or os.path.isdir(args.target): # TODO This code path is crusial to document
+            run_all_tests_in_cwd(args)
     elif args.execute_task:
         # Execute a task
         task = {

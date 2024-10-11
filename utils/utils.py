@@ -1,6 +1,13 @@
 import subprocess
 import logging
 
+def is_empty(arg):
+    if arg is None:
+        return True
+    if isinstance(arg, (str, list, tuple, dict)):
+        return len(arg) == 0
+    return False
+
 def execute_command(command, input=None):
     """
     Execute a CLI command and return the output.

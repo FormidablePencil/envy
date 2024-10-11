@@ -1,8 +1,11 @@
 TEST_MAPPING = {
-    'py_cmd/': {
+    # test in `py_cmd/<test_dir>` <test_dir> is either unit or integration test
+    # Those files associated to unit and integration tests repectfully and the
+    # whole path to the file is stored
+    'py_cmd': {
         'main.py': {
-            'unit': 'tests/unit/test_py_main.py',
-            'integration': 'tests/integration/test_py_main.py'
+            'unit': ['tests/unit/test_py.py'],
+            'integration': ['tests/integration/test_py.py']
         }
     },
     # 'central_ai_manager/core.py': {
