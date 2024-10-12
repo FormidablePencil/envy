@@ -131,9 +131,9 @@ class run_tests_associated_to_target:
             def __init__(self, test_type: Test_type):
                 self.test_type = test_type
                 match test_type:
-                    case DIR:
+                    case self.Test_type.DIR:
                         self.command = 
-                    case FILE:
+                    case self.Test_type.FILE:
                         self.command = 
 
             def run_integration():
