@@ -6,6 +6,15 @@ from utils.validation.internal_state_management import InternalStateManagement
 # TODO give a Enum constraint on generic T
 # TODO Create higher level class to handle different types of eval since eval()
 # can be unsafe in certain circumstances
+# TODO Implement logic to wrap values in a listener and report back to data_wallet
+# and any other subscription when the value is used. ~ This will have to be flexible
+# where you can attach listener to and remove listener at any time (given the permissions)
+# instead of needing to hardcode everything everytime. Essentially every type of value
+# from classes to methods to variables and properties will be prescribed a listener
+# and managed by a dedicated file for each type of value. Make sure to generate or at least
+# the boilerplate by Cline for those things that need specialized knowledge since reading
+# documentation for everything will take ages.
+# One idea to the previous comment is notate a variable with special symbols of subscriptions.
 
 @dataclass
 class CaseCodePath:
