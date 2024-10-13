@@ -122,26 +122,6 @@ class run_tests_associated_to_target:
         unit_test_command = ["pytest", "--color=yes", unit_test_dir]
         integration_test_command = ["pytest", "--color=yes", integration_test_dir]
 
-        class Test_commands:
-            class Test_type(Enum):
-                DIR = auto(), FILE = auto()
-            command = ""
-            test_type: Test_type
-
-            def __init__(self, test_type: Test_type):
-                self.test_type = test_type
-                match test_type:
-                    case self.Test_type.DIR:
-                        self.command = 
-                    case self.Test_type.FILE:
-                        self.command = 
-
-            def run_integration():
-                if 
-                logging.info(f"Running integration tests for {args.target}. Test: {test}")
-                logging.info(f"Running integration tests in directory: {integration_test_dir}")
-                self.execute_command(integration_test_command)
-            def run_unit():
         run(False)
         def run(run_file: bool, test_commands: Test_commands):
             if args.test:

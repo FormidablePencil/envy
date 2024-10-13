@@ -1,8 +1,6 @@
 from enum import Enum, auto
 from subscriptions.subscriptions import Subscriptions
-from subscriptions.sub_subscriptions import SubSubscriptions
-
-
+from utils.validation.subscriptions.subscriptions import SubSubscriptionsImpl
 
 class InternalStateManagement:
     subscriptions: Subscriptions
@@ -10,7 +8,7 @@ class InternalStateManagement:
 
     def __init__(self):
         self.subscriptions = Subscriptions.DataWalletCodebase
-        self.sub_subscriptions = SubSubscriptions.DataWalletCodebase
+        self.sub_subscriptions = SubSubscriptionsImpl.DataWalletCodebase
 
     data: list[any]
     state: list[any]
