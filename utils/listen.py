@@ -3,15 +3,22 @@ from typing import Union
 from enum import Enum, auto
 import pytest # TODO How to exclude pytest and its related tests from prod
 from utils.suit_test_helpers import description, tsprint
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 class Listen:
+    class TrackOrCount(Enum):
+        Count = auto()
+        Track = auto()
+        Nothing = auto()
+
     call: Union[list[list[inspect.FrameInfo]], int, None] = list[list[inspect.FrameInfo]]
     set: Union[list[list[inspect.FrameInfo]], int, None] = list[list[inspect.FrameInfo]]
-
-    class TrackOrCount(Enum):
-        Track = auto(), 
-        Count = auto(),
-        Nothing = auto(),
+    call_type = TrackOrCount.Track
+    set_type = TrackOrCount.Track
 
     def __init__(
             self,
@@ -20,6 +27,8 @@ class Listen:
             set = TrackOrCount.Track, 
         ):
         self._value = value
+        self.call_type = call
+        self.set_type = set
 
         if call == self.TrackOrCount.Nothing:
             self.call = None
@@ -34,14 +43,21 @@ class Listen:
         if set == self.TrackOrCount.Track:
             self.set: list[inspect.FrameInfo] = []
 
+    def is_instantiated_or_populated(self, listen_target_type: list[inspect.FrameInfo]):
+        if (isinstance(listen_target_type, list) or (isinstance(listen_target_type, list) and all(
+            isinstance(frame, inspect.FrameInfo) for item in listen_target_type for frame in item)) or (
+             isinstance(listen_target_type, list) and len(listen_target_type) is 0)):
+             return True
+        else:
+            return False
+
     @property
     def value(self):
-        if self.call is None:
+        if self.call is None and self.call_type is self.TrackOrCount.Nothing: # Replace these if else statements with TrackOrCount
             pass
-        elif isinstance(self.call, int):
+        elif isinstance(self.call, int) and self.call_type is self.TrackOrCount.Count:
             self.call += 1
-        elif isinstance(self.call, list) or all(
-            isinstance(frame, inspect.FrameInfo) for item in self.call for frame in item):
+        elif self.is_instantiated_or_populated(self.call) and self.call_type is self.TrackOrCount.Track:
             """Either empty list or a populated one"""
             stack = inspect.stack()
             self.call.append(stack)
@@ -51,14 +67,15 @@ class Listen:
 
     @value.setter
     def value(self, new_value):
-        if self.set is None:
+        if self.set is None and self.set_type is self.TrackOrCount.Nothing:
             pass
-        if isinstance(self.set, int):
+        elif isinstance(self.set, int) and self.set_type is self.TrackOrCount.Count:
             self.set += 1
-        if isinstance(self.set, list) and all(
-            isinstance(frame, inspect.FrameInfo) for item in self.call for frame in item):
+        elif self.is_instantiated_or_populated(self.set) and self.set_type is self.TrackOrCount.Track:
             stack = inspect.stack()
             self.set.append(stack)
+        else:
+            raise Exception("Unknown internal error.") # TODO Should be handled and notified properly
         self._value = new_value
 
     def __str__(self):
