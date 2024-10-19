@@ -8,6 +8,7 @@ import sqlite3
 
 class Notebook:
     def __init__(self):
+        # TODO Even listen to itself
         self.conn = sqlite3.connect('database.db')
         self.cursor = self.conn.cursor()
         self.create_tables()
@@ -17,7 +18,7 @@ class Notebook:
                              (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, description TEXT, context_id INTEGER, FOREIGN KEY(context_id) REFERENCES context(id))''')
         self.cursor.execute('''CREATE TABLE IF NOT EXISTS source_notes
                              (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, description TEXT, context_id INTEGER, FOREIGN KEY(context_id) REFERENCES context(id))''')
-        self.cursor.execute('''CREATE TABLE IF NOT EXISTS references
+        self.cursor.execute('''CREATE TABLE IF NOT EXISTS refs
                              (id INTEGER PRIMARY KEY AUTOINCREMENT, source_id INTEGER, relation TEXT, permission TEXT, context_id INTEGER, FOREIGN KEY(source_id) REFERENCES source(id), FOREIGN KEY(context_id) REFERENCES context(id))''')
         self.cursor.execute('''CREATE TABLE IF NOT EXISTS subscriptions
                              (id INTEGER PRIMARY KEY AUTOINCREMENT, source_id INTEGER, subscriber_id INTEGER, context_id INTEGER, FOREIGN KEY(source_id) REFERENCES source(id), FOREIGN KEY(context_id) REFERENCES context(id))''')
@@ -38,7 +39,7 @@ class Notebook:
             source_id = self.cursor.lastrowid
 
             # Insert reference
-            self.cursor.execute("INSERT INTO references (source_id, relation, permission, context_id) VALUES (?, ?, ?, ?)", (source_id, relation, permission, context_id))
+            self.cursor.execute("INSERT INTO refs (source_id, relation, permission, context_id) VALUES (?, ?, ?, ?)", (source_id, relation, permission, context_id))
             self.conn.commit()
 
             if not attempt_without_being_recorded:
@@ -66,8 +67,8 @@ class Notebook:
             self.cursor.execute("SELECT id FROM source WHERE title = ? AND context_id = ?", (source, context_id))
             source_id = self.cursor.fetchone()[0]
 
-            # Get reference data from references table
-            self.cursor.execute("SELECT * FROM references WHERE source_id = ? AND relation = ? AND permission = ? AND context_id = ?", (source_id, relation, permission, context_id))
+            # Get reference data from refs table
+            self.cursor.execute("SELECT * FROM refs WHERE source_id = ? AND relation = ? AND permission = ? AND context_id = ?", (source_id, relation, permission, context_id))
             reference_data = self.cursor.fetchall()
 
             # Get source note data from source_notes table
@@ -102,7 +103,7 @@ class Notebook:
                 return False
 
             # Delete reference
-            self.cursor.execute("DELETE FROM references WHERE source_id = ? AND context_id = ?", (source_id, context_id))
+            self.cursor.execute("DELETE FROM refs WHERE source_id = ? AND context_id = ?", (source_id, context_id))
 
             # Delete source
             self.cursor.execute("DELETE FROM source WHERE id = ? AND context_id = ?", (source_id, context_id))
@@ -160,3 +161,39 @@ class Notebook:
     def has_permission(self, user_id: int, context_id: int, view_permission: bool = True, query_permission: bool = True):
         return self.has_view_permission(user_id, context_id) if view_permission else True and \
                self.has_query_permission(user_id, context_id) if query_permission else True
+
+# TODO Cleanup
+class Test:
+    def test_sql_table_as_refs_by_name(self):
+        self.conn = sqlite3.connect('database.db')
+        self.cursor = self.conn.cursor()
+        def executable(table_name):
+            self.cursor.execute(f'''CREATE TABLE IF NOT EXISTS {table_name}
+                                (id INTEGER PRIMARY KEY AUTOINCREMENT, source_id INTEGER, relation TEXT, permission TEXT, context_id INTEGER, FOREIGN KEY(source_id) REFERENCES source(id), FOREIGN KEY(context_id) REFERENCES context(id))''')
+        try:
+            executable("references")
+            raise Exception("Should have failed but was successful.")
+        except sqlite3.OperationalError as e:
+            if str(e) == 'near "references": syntax error':
+                print("As expected with operational error when trying to use 'references' for table name.")
+            pass
+        except Exception as e:
+            if str(e) == "Should have failed but was successful.":
+                raise Exception("Should have failed but was successful when table was named references thusly refs was opted for instead.")
+            else:
+                print(e)
+                raise Exception("Unknown internal error.")
+
+        try:
+            executable("refs")
+            print("Successfully created a tabled with the name of refs.")
+            pass
+        except Exception:
+                print(e)
+                raise Exception("Unknown internal error.")
+
+        self.conn.commit()
+
+if __name__ == "__main__":
+    test = Test()
+    test.test_sql_table_as_refs_by_name()

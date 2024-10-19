@@ -3,6 +3,7 @@ from data_wallet.notebook.main import Notebook
 
 class NotebookUI:
     def __init__(self, target: ft.Page):
+        # TODO Even listen to itself
         # super().__init__(target)
         self.notebook = Notebook()
         self.notebook.create_tables()
