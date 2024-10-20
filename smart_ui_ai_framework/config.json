@@ -1,0 +1,16 @@
+{
+    "framework_version": "0.1.0",
+    "components": {
+        "text_analyzer": {
+            "type": "SimpleTextAnalyzer",
+            "config": {
+                "positive_words": ["good", "great", "excellent", "amazing"],
+                "negative_words": ["bad", "poor", "terrible", "awful"]
+            }
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "smart_ui_framework.log"
+    }
+}

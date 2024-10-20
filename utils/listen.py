@@ -4,10 +4,21 @@ from enum import Enum, auto
 import pytest # TODO How to exclude pytest and its related tests from prod
 from utils.suit_test_helpers import description, tsprint
 import logging
+from dataclasses import dataclass
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# TODO Test LockInListener feature as well as its' history of stack trace (alt)
+# TODO Implement subscribing to various sources; databases, datawallet, codebases even if history is kept track locally
+# TODO Implement private tracking where history isn't tracked locally but by whom ever subscribed to to keep history at privately.
+# TODO Following the last point, implement contextually secure data. (Still a little hazy about this idea)
+
+# TODOs To work going forward
+# TODO Implementing py command for testing and running purposes
+# TODO Implement value listeners to be adopted by every value in any codebase
+# TODO Implement a subscription source for listener and vise-versa where a data source can request for or subscribe to data optionally providing in what context (determined by ai intention and context detection. There is no other way to implement context based authentication so a degree of uncertainty will be there but the potential gain is promising)
 
 class Listen:
     class TrackOrCount(Enum):
@@ -25,6 +36,10 @@ class Listen:
     set: Union[list[list[inspect.FrameInfo]], int, None] = list[list[inspect.FrameInfo]]
     call_type = TrackOrCount.Track
     set_type = TrackOrCount.Track
+    # TODO History of changes (if option specified)
+    # TODO Invoked call and set
+    # TODO Only update the history of changes with inspect.stack only
+    # upon lock.
 
     def __init__(
             self,
@@ -52,28 +67,69 @@ class Listen:
     def is_instantiated_or_populated(self, listen_target_type: list[inspect.FrameInfo]):
         if (isinstance(listen_target_type, list) or (isinstance(listen_target_type, list) and all(
             isinstance(frame, inspect.FrameInfo) for item in listen_target_type for frame in item)) or (
-             isinstance(listen_target_type, list) and len(listen_target_type) is 0)):
+             isinstance(listen_target_type, list) and len(listen_target_type) == 0)):
              return True
         else:
             return False
 
     # region lock in type of listener
-    lock_in_listener: Listener
+    
+    class LockInListener:
+        class Shareable:
+            def __init__(self, listener: Listen.Listener, stack: inspect.FrameInfo):
+                self.listener = listener
+                self.stack = stack
 
-    @property
-    def listener(self) -> Union[list[list[inspect.FrameInfo]], int, None]:
-        match self.lock_in_listener:
-            case self.Listener.Call:
+            def append(self, new_listener: Listen.Listener):
+                self.listener = new_listener
+
+        @dataclass
+        class SetStackTrace(Shareable):
+            pass
+
+        @dataclass
+        class GetStackTrace(Shareable):
+            pass
+        
+        def __init__(self):
+            self.stack_trace = {
+                'set': self.SetStackTrace(Listen.Listener.Set, inspect.stack()),
+                'get': self.GetStackTrace(Listen.Listener.Call, inspect.stack())
+            }
+            self._lock_in_listener = None
+            self.lock_in_listener_stack_trace = []
+
+        @property
+        def lock_in_listener(self):
+            return self._lock_in_listener
+
+        @lock_in_listener.setter
+        def lock_in_listener(self, new_listener: Listen.Listener):
+            if self._lock_in_listener == new_listener:
+                raise Exception("Tried to change lock_in_listener with it being the same.")
+            self.lock_in_listener_stack_trace.append(self.Shareable(new_listener, inspect.stack()))
+            self._lock_in_listener = new_listener
+
+        def lock_in_listener_bypass(self, new_listener: Listen.Listener):
+            # No validation unlike lock_in_listener
+            self.lock_in_listener_stack_trace.append(self.Shareable(new_listener, inspect.stack()))
+            self._lock_in_listener = new_listener
+
+        @property
+        def listener(self) -> Union[list[list[inspect.FrameInfo]], int, None]:
+            if self.lock_in_listener == Listen.Listener.Call:
+                self.stack_trace['get'].append(Listen.Listener.Call)
                 return self.call
-            case self.Listener.Set:
+            elif self.lock_in_listener == Listen.Listener.Set:
+                self.stack_trace['set'].append(Listen.Listener.Set)
                 return self.set
-            # else:
-            #     raise Exception() # TODO
+            else:
+                raise Exception("Invalid listener type")
     # endregion
 
     @property
     def value(self):
-        if self.call is None and self.call_type is self.TrackOrCount.Nothing: # Replace these if else statements with TrackOrCount
+        if self.call is None and self.call_type is self.TrackOrCount.Nothing:
             pass
         elif isinstance(self.call, int) and self.call_type is self.TrackOrCount.Count:
             self.call += 1
@@ -82,7 +138,8 @@ class Listen:
             stack = inspect.stack()
             self.call.append(stack)
         else:
-            raise Exception("Unknown internal error.") # TODO Implement logging here and custom exception
+            logger.error("Unknown internal error in value getter.")
+            raise ValueError("Unknown internal error in value getter.")
         return self._value
 
     @value.setter
@@ -95,25 +152,25 @@ class Listen:
             stack = inspect.stack()
             self.set.append(stack)
         else:
-            raise Exception("Unknown internal error.") # TODO Should be handled and notified properly
+            logger.error("Unknown internal error in value setter.")
+            raise ValueError("Unknown internal error in value setter.")
         self._value = new_value
 
     def __str__(self):
-        return self.value
+        return str(self.value)
 
     def __repr__(self):
-        return f"Listen(value={self.value!r})"  # Optional for debugging purposes
+        return f"Listen(value={self.value!r})"
 
     def __eq__(self, other):
         """Override equality operator."""
         if isinstance(other, (str, int, bool)):
-            return self._value == other  # Compare with a string
-        return False  # Not equal if compared with a non-string
+            return self._value == other
+        return False
 
     def __len__(self):
-        return len(self.value)
+        return len(str(self.value))
 
-    # Allow indexing like a string
     def __getitem__(self, index):
         # TODO Give more context of this type of lookup
         return self.value[index]

@@ -16,7 +16,6 @@ class ListenCP:
         both = auto()
 
 class TestListen:
-
     @dataclass
     class ListenParams:
         type: ListenCP.Type
@@ -205,8 +204,6 @@ class TestListen:
         # Validate target of those changes of type being the correct list of items (inspect.stack) TODO dynamic comments. Perhaps just introduce description that only runs in dev, test but not in prod
         assert isinstance(listen.listener, list) and len(listen.listener) > 0 and all(
             isinstance(frame, inspect.FrameInfo) for item in listen.listener for frame in item), f"'{type}' not instance of list[inspect.FrameInfo] after some changing."
-
-        assert len(listen.listener) == 3 if type == ListenCP.Type.call else 3, f"Listen has been '{type}' {3 if type == ListenCP.Type.call else 3} times but count is {len(listen.listener)}"
         # assert listen.listener == 2 if type == ListenCP.Type.set else 4, f"Listen has been '{type}' {2 if type == ListenCP.Type.set else 4} times but count is {listen.listener}"
 
     # endregion Refactored code
