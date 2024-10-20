@@ -5,6 +5,7 @@ from enum import Enum, auto
 import pytest
 from pytest import FixtureRequest
 from dataclasses import dataclass
+from typing import Union, Generator
 
 # TODO Maybe rename this since tests will be also used as checkpoints
 
@@ -35,7 +36,7 @@ class TestListen:
             raise Exception("Didn't account for other types.") # TODO Create a function for getting the reset of the types that were't covered in a similar fashion as repeat_case.py
 
     @pytest.fixture
-    def setup_listen_of_type(self, request: FixtureRequest):
+    def setup_listen_of_type(self, request: FixtureRequest) -> Generator[tuple[Listen, ListenParams], None, None]:
         param: TestListen.ListenParams = request.param
 
         if param.type == ListenCP.Type.call:
@@ -54,20 +55,23 @@ class TestListen:
     ]
 
     @pytest.mark.parametrize('setup_listen_of_type', default_listen_None_args, indirect=True)
-    def test_listen_None2(self, setup_listen_of_type):
+    def test_listen_None2(self, setup_listen_of_type: tuple[Listen, ListenParams]):
         listen, param = setup_listen_of_type
         self.listen_None_CP(param.type, listen)
 
     def listen_None_CP(self, type: ListenCP.Type, listen: Listen):
         self.type_of_both_not_allowed(type)
-        # Set to target and validate target of type int
+
+        # Setting for dynamic validation
         if type == ListenCP.Type.call:
-            listen_target_type = listen.call
+            listen.lock_in_listener = Listen.Listener.Call
         elif type == ListenCP.Type.set:
-            listen_target_type = listen.set
+            listen.lock_in_listener = Listen.Listener.Set
         else:
-            Exception("Make sure type_of_both_not_allowed is in place")
-        assert listen_target_type is None, f"{'Call' if type == ListenCP.Type.call else 'Set'} is not set to None when explicitly setting Listen.TrackOrCount.Nothing."
+            raise Exception("Make sure type_of_both_not_allowed is in place since it sould have caught the type error.")
+
+        # Validate listen of type None
+        assert listen.listener is None, f"{type} is not set to None when explicitly setting '{type}' = Listen.TrackOrCount.Nothing."
 
         # Action
         if type == ListenCP.Type.call:
@@ -75,168 +79,167 @@ class TestListen:
         elif type == ListenCP.Type.set:
             listen.value = "Hi! After update 1."
         else:
-            Exception("Make sure type_of_both_not_allowed is in place")
+            Exception("Make sure type_of_both_not_allowed is in place") # TODO Reusing the same pattern and can be refactored even further out with util helper to set up else upon instantiation and setting it to the same exception.
 
-        # Validate previous action was successful
-        if type == ListenCP.Type.call:
-            tsprint(listen, "Call 1")
-        elif type == ListenCP.Type.set:
-            listen.value = "Hi! After update 1."
-            tsprint("Set 1")
-        else:
-            Exception("Make sure type_of_both_not_allowed is in place")
+        # Validate 2 birds with one stone (type.call and type.set) previous action was successful
+        assert listen.listener is None
 
-        # Validate changes of when listen is called/viewed/evaluated in an if statement
+        # Action call in if statement and validate
         if listen:
             if type == ListenCP.Type.call:
-                tsprint(f'{listen} From if statement. Call 2.')
+                assert len(listen.listener) is 2
             elif type == ListenCP.Type.set:
-                tsprint(f"Listen has value of: '{listen}'")
+                pass
             else:
                 Exception("Make sure type_of_both_not_allowed is in place")
         else:
             raise Exception("Listen has no value.")
         
         # Validate there were no significant changes
-        assert listen_target_type is None, f"{'Call' if type == ListenCP.Type.call else 'Set'} is not set to None when explicitly setting Listen.TrackOrCount to '{type}' after some changed."
+        assert listen.listener is None, f"{type} is not set to None when explicitly setting Listen.TrackOrCount to '{type}' after some changed."
 
     default_listen_Count_args = [
         ListenParams(type = ListenCP.Type.call, call = Listen.TrackOrCount.Count, set = Listen.TrackOrCount.Nothing),
         ListenParams(type = ListenCP.Type.set, call = Listen.TrackOrCount.Nothing, set = Listen.TrackOrCount.Count),
     ]
     @pytest.mark.parametrize('setup_listen_of_type', default_listen_Count_args, indirect=True)
-    def test_listen_Count2(self, setup_listen_of_type):
+    def test_listen_Count2(self, setup_listen_of_type: tuple[Listen, ListenParams]):
         listen, param = setup_listen_of_type
         self.listen_Count_CP(param.type, listen)
 
     def listen_Count_CP(self, type: ListenCP.Type, listen: Listen):
         self.type_of_both_not_allowed(type)
 
-        # Set to target and validate target of type int
+        # Setting for dynamic validation
         if type == ListenCP.Type.call:
-            listen_target_type = listen.call
+            listen.lock_in_listener = Listen.Listener.Call
+            tsprint(listen, "Call 1")
+            assert listen.call is 1
+            assert listen.listener is 1
         elif type == ListenCP.Type.set:
-            listen_target_type = listen.set
+            listen.lock_in_listener = Listen.Listener.Set
+            listen.value = "made change"
+            assert listen.set is 1
+            assert listen.listener is 1
         else:
             raise Exception("Make sure type_of_both_not_allowed is in place since it sould have caught the type error.")
-        print(listen_target_type, "instance")
-        assert isinstance(listen_target_type, int), f"{'Call' if type == ListenCP.Type.call else 'Set'} is not instance of int when explicitly setting Listen.TrackOrCount to '{type}'"
+
+        # validate target of type int
+        assert isinstance(listen.listener, int), f"'{type}' is not instance of int when explicitly setting Listen.TrackOrCount to '{type}'"
 
         # Make changes
-        tsprint(listen, "Call 1")
-        listen.value = "Hi! After update. 1"
-        if listen: # Call 2
+        tsprint(listen, "Call 2")
+        listen.value = "Hi! After update. 1" # TODO Create an auto incrementor for updating values
+
+        # Validate call stack was recorded when changes were made
+        if listen: # Call 3
             if type == ListenCP.Type.call:
-                tsprint(f'{listen} From if statement. Call 3.')
+                tsprint(f'{listen} From if statement and one Call here which makes it 3.')
+                assert listen.listener is 4
             elif type == ListenCP.Type.set:
-                listen.value = "Hi! After update. 2" # TODO Create an auto incrementor for updating values
+                assert listen.listener is 2
             else:
                 raise Exception("Make sure type_of_both_not_allowed is in place since it sould have caught the type error.")
         else:
             raise Exception("Listen has no value.")
 
         # Validate those changes
-        assert isinstance(listen_target_type, int), f"{'Call' if type == ListenCP.Type.call else 'Set'} is not instance of int when explicitly setting Listen.TrackOrCount to '{type}'"
-        if type == ListenCP.Type.call or type == ListenCP.Type.set:
-            assert listen_target_type == 2 if type == ListenCP.Type.call else 3, f"Listen has been viewed 3 times but count is {listen.call}"
+        assert isinstance(listen.listener, int), f"'{type}' is not instance of int when explicitly setting Listen.TrackOrCount to '{type}'"
+        if type == ListenCP.Type.call:
+            assert listen.listener == 4 if type == ListenCP.Type.call else 2, f"Listen has been '{type}' {4 if type == ListenCP.Type.call else 2} times but count is {listen.listener}"
+        elif type == ListenCP.Type.set:
+            assert listen.listener == 2 if type == ListenCP.Type.set else 4, f"Listen has been '{type}' {2 if type == ListenCP.Type.set else 4} times but count is {listen.listener}"
         else:
-            raise Exception("Make sure type_of_both_not_allowed is in place since it sould have caught the type error.")
-        # Set 
+            raise Exception("Make sure type_of_both_not_allowed is in place since it sould have caught the type error.") 
 
-    def test_listen_call_Track2(self):
-        self.listen_Track(ListenCP.Type.call)
-    def test_listen_set_Track2(self):
-        self.listen_Track(ListenCP.Type.set)
+    default_listen_Track_args = [
+        ListenParams(type = ListenCP.Type.call, call = Listen.TrackOrCount.Track, set = Listen.TrackOrCount.Nothing),
+        ListenParams(type = ListenCP.Type.set, call = Listen.TrackOrCount.Nothing, set = Listen.TrackOrCount.Track),
+    ]
+    @pytest.mark.parametrize('setup_listen_of_type', default_listen_Track_args, indirect=True)
+    def test_listen_Track2(self, setup_listen_of_type: tuple[Listen, ListenParams]):
+        listen, param = setup_listen_of_type
+        self.listen_Track_CP(param.type, listen)
 
     # TODO Track3, abstract out different methods of validation
 
-    def listen_Track(self, type: ListenCP.Type):
+    def listen_Track_CP(self, type: ListenCP.Type, listen: Listen):
         self.type_of_both_not_allowed(type)
-        listen = self.setup_listen_of_type(type, call = Listen.TrackOrCount.Track, set = Listen.TrackOrCount.Track)
 
-        # Set to target
+        # Setting for dynamic validation
         if type == ListenCP.Type.call:
-            listen_target_type = listen.call
+            listen.lock_in_listener = Listen.Listener.Call
         elif type == ListenCP.Type.set:
-            listen_target_type = listen.set
+            listen.lock_in_listener = Listen.Listener.Set
         else:
             raise Exception("Make sure type_of_both_not_allowed is in place since it sould have caught the type error.")
 
-        assert isinstance(listen_target_type, list) and len(listen_target_type) is 0, f"listen.{'call' if type == ListenCP.Type.call else 'set'} not properly instantiated to empty list"
+        print("statement")
+        print(type, "type")
+        print(listen.listener, "leng")
+        print(len(listen.listener), "leng")
+        assert isinstance(listen.listener, list) and len(listen.listener) is 0, f"listen.'{type}' not properly instantiated to empty list"
 
-        # Make changes
+        # Make changes and validate
         if type == ListenCP.Type.call:
-            tsprint(listen_target_type, "listen.call invoked 1.")
-        if type == ListenCP.Type.set:
-            listen_target_type = "Hi! After update 1."
-            tsprint("Set 1")
-            assert len(listen_target_type) is 1
-        if listen:
+            tsprint(listen, "listen.call invoked 1.")
+            assert len(listen.listener) is 1
+        elif type == ListenCP.Type.set:
+            listen.value = "Hi! After update 1."
+            tsprint("Set invoked 1")
+            assert len(listen.listener) is 1
+
+        if listen: # Call 2
             if type == ListenCP.Type.call:
-                tsprint(listen, "Call 1")
-                tsprint(len(listen), "Call 2")
-                if listen: # Call 3
-                    tsprint(f'{listen}. Once invoked from if statement. And once invoked from here. 4')
+                tsprint(listen, 'Once invoked from if statement. And once invoked from here. 3')
+                assert len(listen.listener) is 3
             if type == ListenCP.Type.set:
                 listen.value = "Hi! After update 2."
-                assert len(listen_target_type) is 2
+                assert len(listen.listener) is 2
                 tsprint("Setting the same thing to itself")
-                listen.value = "Hi! After update 2."
-                assert len(listen_target_type) is 3, "Setting the same thing to itself should have invoked set regardless."
-                listen.value = "Hi! After update 4. For validation 2 birds with 1 stone."
+                listen.value = "Hi! After update 3."
+                assert len(listen.listener) is 3, "Setting the same thing to itself should have invoked set regardless."
         else:
             raise Exception(f"Listen has no value. Value: '{listen}'")
 
         # Validate target of those changes of type being the correct list of items (inspect.stack) TODO dynamic comments. Perhaps just introduce description that only runs in dev, test but not in prod
-        assert isinstance(listen_target_type, list) and len(listen_target_type) > 0 and all(
-            isinstance(frame, inspect.FrameInfo) for item in listen_target_type for frame in item), "Call not instance of list[inspect.FrameInfo] after some changing."
-        assert len(listen_target_type) is 4, f"Listen.{'call' if type == ListenCP.Type.call else 'set'} has been invoked 4 times but stack len is {len(listen_target_type)}"
+        assert isinstance(listen.listener, list) and len(listen.listener) > 0 and all(
+            isinstance(frame, inspect.FrameInfo) for item in listen.listener for frame in item), f"'{type}' not instance of list[inspect.FrameInfo] after some changing."
+
+        assert len(listen.listener) == 3 if type == ListenCP.Type.call else 3, f"Listen has been '{type}' {3 if type == ListenCP.Type.call else 3} times but count is {len(listen.listener)}"
+        # assert listen.listener == 2 if type == ListenCP.Type.set else 4, f"Listen has been '{type}' {2 if type == ListenCP.Type.set else 4} times but count is {listen.listener}"
 
     # endregion Refactored code
 
     # region Unrefactored code
  
-    def test_listen_call_None(self):
-        listen = self.setup_listen_of_type(type = ListenCP.Type.call, call = Listen.TrackOrCount.Nothing)
-        assert listen.call is None, "Call is not set to None when explicitly set to that."
-        tsprint(listen, "Call 1")
-        if listen:
-            tsprint(f'{listen} From if statement. Call 2.')
-        else:
-            raise Exception("Listen has no value.")
-        assert listen.call is None, "Call is not set to None when explicitly set to that after some changed."
-    def test_listen_set_None(self):
-        listen = Listen("Hi! Before update.", set=Listen.TrackOrCount.Nothing)
-        assert listen.set is None, "Set is not set to None when explicitly set to that."
-        listen.value = "Hi! After update 1."
-        tsprint("Set 1")
-        if listen:
-            tsprint(f'{listen} From if statement. Set 1.')
-        else:
-            raise Exception("Listen has no value.")
-        assert listen.set is None, "Set is not set to None when explicitly set to that after some changed."
+    default_listen_Nothing_args = [
+        ListenParams(type = ListenCP.Type.call, call = Listen.TrackOrCount.Nothing, set = Listen.TrackOrCount.Count),
+        ListenParams(type = ListenCP.Type.set, call = Listen.TrackOrCount.Track, set = Listen.TrackOrCount.Nothing),
+    ]
+    @pytest.mark.parametrize('setup_listen_of_type', default_listen_Nothing_args, indirect=True)
+    def test_listen_None(self, setup_listen_of_type: tuple[Listen, ListenParams]):
+        listen, param = setup_listen_of_type
+        self.listen_None_CP(param.type, listen)
 
-    def test_listen_call_Count(self):
-        listen = Listen("Hi! Before update.", call=Listen.TrackOrCount.Count)
-        assert isinstance(listen.call, int), "Not instance of int when explicitly setting Listen.TrackOrCount.Count"
-        tsprint(listen, "Call 1")
-        if listen: # Call 2
-            tsprint(f'{listen} From if statement. Call 3.')
+    def listen_None_CP(self, type: ListenCP.Type, listen: ListenParams):
+        # Setting for dynamic validation
+        if type == ListenCP.Type.call:
+            listen.lock_in_listener = Listen.Listener.Call
+        elif type == ListenCP.Type.set:
+            listen.lock_in_listener = Listen.Listener.Set
+        else:
+            raise Exception("Make sure type_of_both_not_allowed is in place since it sould have caught the type error.")
+
+        if listen: # Call 1 TODO Ability to leave notes to values. Here I could specify that 'call' in if statment is handled here too
+            if type == ListenCP.Type.call:
+                tsprint(listen.listener, 'From if statement. Call 2.')
+                assert listen.listener is None
+            if type == ListenCP.Type.set:
+                listen.value = "New value update 1."
+                assert listen.listener is None
         else:
             raise Exception("Listen has no value.")
-        assert isinstance(listen.call, int), "Not instance of int after some changing."
-        assert listen.call is 3, f"Listen has been viewed 3 times but count is {listen.call}"
-    def test_listen_set_Count(self):
-        listen = Listen("Hi! Before update.", set=Listen.TrackOrCount.Count)
-        assert isinstance(listen.set, int), "Not instance of int"
-        listen.value = "Hi! After update 1."
-        tsprint(listen, "Set 1")
-        if listen:
-            listen.value = "Hi! After update 2."
-        else:
-            raise Exception("Listen has no value.")
-        assert isinstance(listen.set, int), "Not instance of int after some changing."
-        assert listen.set is 2, f"Listen has been set 2 times but count is {listen.set}"
 
     def test_listen_call_Track(self):
         listen = Listen("Hi! Before update.", call=Listen.TrackOrCount.Track)
@@ -251,6 +254,7 @@ class TestListen:
         assert isinstance(listen.call, list) and all( # Call 5
             isinstance(frame, inspect.FrameInfo) for item in listen.call for frame in item), "Call not instance of list[inspect.FrameInfo] after some changing."
         assert len(listen.call) is 4, f"Listen has been viewed/called 5 times but stack len is {len(listen.call)}"
+
     def test_listen_set_Track(self):
         listen = Listen("Hi! Before update.", set=Listen.TrackOrCount.Track)
         assert isinstance(listen.set, list)

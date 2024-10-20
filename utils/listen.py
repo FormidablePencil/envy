@@ -14,6 +14,12 @@ class Listen:
         Count = auto()
         Track = auto()
         Nothing = auto()
+    
+    class Listener(Enum):
+        Call = auto()
+        InvokedCall = auto()
+        Set = auto()
+        InvokedSet = auto()
 
     call: Union[list[list[inspect.FrameInfo]], int, None] = list[list[inspect.FrameInfo]]
     set: Union[list[list[inspect.FrameInfo]], int, None] = list[list[inspect.FrameInfo]]
@@ -50,6 +56,20 @@ class Listen:
              return True
         else:
             return False
+
+    # region lock in type of listener
+    lock_in_listener: Listener
+
+    @property
+    def listener(self) -> Union[list[list[inspect.FrameInfo]], int, None]:
+        match self.lock_in_listener:
+            case self.Listener.Call:
+                return self.call
+            case self.Listener.Set:
+                return self.set
+            # else:
+            #     raise Exception() # TODO
+    # endregion
 
     @property
     def value(self):
